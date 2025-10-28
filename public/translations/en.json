@@ -1,0 +1,193 @@
+{
+    "general": {
+        "name": "Alen Roady",
+        "headline": "Creating the healthcare of tomorrow",
+        "image": "/profile.png",
+        "alt": "Profile picture",
+        "cv": "/roady-cv.pdf",
+        "about": [
+            "Welcome to my site! I'm an engineer with 7+ years of experience working in regulated medtech environments, from start-ups to multinationals.",
+            "I design, build and maintain robust, full-stack software and data platforms aligned with business needs. My goal is to apply my systems engineering skills to create data-driven solutions that work for the benefit of patients and healthcare providers."
+        ],
+        "socials": {
+            "email": "alenroady@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/alenroady",
+            "github": "https://github.com/qosmonaut"
+        }
+    },
+    "experiences": [
+        {
+            "title": "Principal SW Engineer",
+            "company": "Skaaltec / ETH RELab",
+            "href": "https://skaaltec.com",
+            "startDate": "06/2024",
+            "endDate": "Present",
+            "description": "Founding engineer in an early-stage ETH spin-off developing a neurorehabilitation system for stroke patients. Built and deployed IoT edge devices to partner clinics with Balena Cloud fleet management. Designed and built a proof-of-concept user platform and data pipeline. Created data strategy and ensured regulatory compliance of software products and patient data security. Set up development server, internal tooling, domains and web hosting with continuous deployment using Cloudflare Workers. Supervision of student projects and interns.",
+            "skills": [
+                "Django",
+                "Docker",
+                "React",
+                "Python",
+                "Rust"
+            ]
+        },
+        {
+            "title": "Co-Founder",
+            "company": "LoveLabs",
+            "href": "https://www.linkedin.com/company/lovelabs",
+            "startDate": "12/2022",
+            "endDate": "09/2023",
+            "description": "Co-founded an association to promote expanded access to self-administered rapid diagnostic tests for STIs. Collected market data and performed comparative analysis of commercially available lateral flow devices. Developed go-to-market strategy and analyzed product-market fit. Supported fundraising, branding and operations.",
+           "skills": [
+                "Regulatory",
+                "Growth",
+                "Partnerships",
+                "Astro"
+            ]
+        },
+        {
+            "title": "Freelancer",
+            "company": "Independent consulting",
+            "href": "",
+            "startDate": "09/2021",
+            "endDate": "03/2022",
+            "description": "Provided technical consulting for the design and development of a medical wearable. Set up an ML training pipeline and provided training to staff software engineers. Created initial prototype implementation of an embedded ML algorithm for real-time analysis of cardiovascular and kinematic features.",
+            "logo": "",
+            "skills": [
+                "Training",
+                "TinyML",
+                "PyTorch",
+                "InfluxDB"
+            ]
+        },
+        {
+            "title": "Software Engineer",
+            "company": "Roche Diagnostics",
+            "href": "",
+            "startDate": "06/2019",
+            "endDate": "06/2021",
+            "description": "Designed a digital twin solution and signal processing pipeline for predictive maintenance for the Cobas 5800/8800 PCR system. Developed and compared performance of multiple end-to-end prototypes, including development of IoT edge devices and cloud-based analysis and monitoring applications. Engaged stakeholders and mediated client, business and engineering requirements for product development.",
+            "skills": [
+                "GCP",
+                "Grafana",
+                "Docker",
+                "C++",
+                "NoSQL"
+            ]
+        },
+        {
+            "title": "Software Developer",
+            "company": "Skope Magnetic Resonance Technologies",
+            "href": "",
+            "startDate": "07/2015",
+            "endDate": "05/2019",
+            "description": "Supported initial development of novel magnetic field monitoring technology for MRI applications in an ETH spin-off. Expanded real-time signal processing pipeline and visualization of field sensor data. Implemented control API and accompanying SDK for user application development. Set up DevOps process for acquisition application.",
+            "skills": [
+                "LabVIEW",
+                "C#",
+                "MatLab",
+                "Jekyll",
+                "APIs"
+            ]
+        },
+        {
+            "title": "Graduate Student Researcher",
+            "company": "Harvard Medical School",
+            "href": "",
+            "startDate": "04/2018",
+            "endDate": "10/2018",
+            "description": "Developed an optimization framework to generate asymmetric diffusion encoding gradient waveforms for high-resolution cardiovascular DTI. Implemented a proof-of-concept on a Siemens Connectome scanner.",
+            "logo": "/logos/vercel-white.png",
+            "skills": [
+                "Python",
+                "CPLEX",
+                "Convex optim",
+                "MatLab"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "subject": "Electrical Engineering & Information Technology",
+            "degree": "Master of Science",
+            "university": "ETH Zürich",
+            "href": "https://ee.ethz.ch/studies/master-s-programmes/main-master.html",
+            "startDate": "09/2015",
+            "endDate": "11/2018",
+            "description": [
+                "Specialization in biomedical engineering. Research projects: ",
+                "• Asymmetric Diffusion Encoding for High-Resolution MR-DTI ",
+                "• Reconstruction Techniques for Free-breathing MR Elastography ",
+                "• Real-time Gradient Impulse Response Function Harvesting ",
+                "• EXCITE Zurich – biomedical imaging summer school 2017 "
+            ]
+        },
+        {
+            "subject": "Electrical Engineering & Information Technology",
+            "degree": "Bachelor of Science",
+            "university": "ETH Zürich",
+            "href": "https://ee.ethz.ch/studies/bachelor/bsc-eeit.html",
+            "startDate": "09/2011",
+            "endDate": "12/2016",
+            "description":[
+                "Specialization in signal processing. International experience: ",
+                "• Chinese University of Hong Kong – exchange semester 2015/16 ",
+                "• Infineon Technologies – IAESTE internship 2015 ",
+                "• Beijing University – IARU summer school 2014 ",
+                "• EPF Lausanne – exchange semester 2013/14 "
+            ]
+        }
+    ],
+    "volunteering": [
+        {
+            "position": "Position Name",
+            "event": "Event Name",
+            "organisation": "Organisation Name",
+            "href": "",
+            "startDate": "2022",
+            "endDate": "NOW",
+            "description": "Short description of your role at the event."
+        },
+        {
+            "position": "Position Name",
+            "event": "Event Name",
+            "organisation": "Organisation Name",
+            "href": "",
+            "startDate": "2022",
+            "endDate": "NOW",
+            "description": "Short description of your role at the event."
+        },
+        {
+            "position": "Position Name",
+            "event": "Event Name",
+            "organisation": "Organisation Name",
+            "href": "",
+            "startDate": "2022",
+            "endDate": "NOW",
+            "description": "Short description of your role at the event."
+        }
+    ],
+    "projects": [
+        {
+            "name": "two-column-portfolio",
+            "framework": "next.js",
+            "description": "A simple two-column portfolio template that is easy and quick to customize for your own purposes. Mobile friendly.",
+            "href": "https://github.com/karlgrossmann/two-column-portfolio",
+            "stars": "0"
+        },
+       {
+            "name": "example-project",
+            "framework": "javascript",
+            "description": "Short description of your project.",
+            "href": "",
+            "stars": "2,712"
+       },
+       {
+        "name": "example-project-2",
+        "framework": "flutter",
+        "description": "Short description of your project.",
+        "href": "",
+        "stars": "1,999"
+        } 
+    ]
+}
