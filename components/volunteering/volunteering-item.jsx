@@ -3,7 +3,7 @@ import React from "react";
 function VolunteeringItem(props) {
     return (
         <div className="group flex flex-row mb-4 p-5 transition-all bg-background hover:bg-surface-200">
-            <div className='mr-2 text-surface-600 text-xs basis-1/4'>{props.startDate} {checkEndDate(props)}</div>
+            <div className='mr-2 text-surface-600 text-xs basis-1/4'>{props.startDate} – {checkEndDate(props)}</div>
             <div className='basis-3/4 flex flex-col'>
                 <a href={props.href} target="_blank" rel="noopener noreferrer" className='font-medium transition-all'>{props.position} at {props.event}</a>
                 <a href={props.href} target="_blank" rel="noopener noreferrer" className='text-surface-600 mb-4 flex flex-row items-center'>
@@ -20,9 +20,9 @@ function VolunteeringItem(props) {
 
 function checkEndDate(props) {
     if (!props.endDate) {
-        return '';
+        return 'present';
     } else {
-        return ('- ' + props.endDate); 
+        return (props.endDate); 
     }  
 }
 

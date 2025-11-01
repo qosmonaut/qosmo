@@ -21,7 +21,7 @@
             "company": "Skaaltec / ETH RELab",
             "href": "https://skaaltec.com",
             "startDate": "06/2024",
-            "endDate": "Present",
+            "endDate": "",
             "description": "Founding engineer in an early-stage ETH spin-off developing a neurorehabilitation system for stroke patients. Built and deployed IoT edge devices to partner clinics with Balena Cloud fleet management. Designed and built a proof-of-concept user platform and data pipeline. Created data strategy and ensured regulatory compliance of software products and patient data security. Set up development server, internal tooling, domains and web hosting with continuous deployment using Cloudflare Workers. Supervision of student projects and interns.",
             "skills": [
                 "Django",
@@ -145,7 +145,7 @@
             "organisation": "Organisation Name",
             "href": "",
             "startDate": "2022",
-            "endDate": "NOW",
+            "endDate": "",
             "description": "Short description of your role at the event."
         },
         {
@@ -154,7 +154,7 @@
             "organisation": "Organisation Name",
             "href": "",
             "startDate": "2022",
-            "endDate": "NOW",
+            "endDate": "",
             "description": "Short description of your role at the event."
         },
         {
@@ -163,7 +163,7 @@
             "organisation": "Organisation Name",
             "href": "",
             "startDate": "2022",
-            "endDate": "NOW",
+            "endDate": "",
             "description": "Short description of your role at the event."
         }
     ],
