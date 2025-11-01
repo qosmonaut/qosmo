@@ -65,7 +65,7 @@
             "href": "https://www.roche.com/about/business/diagnostics",
             "startDate": "06/2019",
             "endDate": "06/2021",
-            "description": "Designed a digital twin solution and signal processing pipeline for predictive maintenance for the Cobas 5800/8800 PCR system. Developed and compared performance of multiple end-to-end prototypes, including development of IoT edge devices and cloud-based analysis and monitoring applications. Engaged stakeholders and mediated client, business and engineering requirements for product development.",
+            "description": "Designed a digital twin solution and signal processing pipeline for predictive maintenance for the Cobas 6800/8800 PCR system. Developed and compared performance of multiple end-to-end prototypes, including development of IoT edge devices and cloud-based analysis and monitoring applications. Engaged stakeholders and mediated client, business and engineering requirements for product development.",
             "skills": [
                 "GCP",
                 "Grafana",
@@ -76,7 +76,7 @@
         },
         {
             "title": "Software Developer",
-            "company": "Skope Magnetic Resonance Technologies",
+            "company": "Skope MR Technologies",
             "href": "https://skope.swiss/",
             "startDate": "07/2015",
             "endDate": "05/2019",
@@ -90,8 +90,8 @@
             ]
         },
         {
-            "title": "Graduate Student Researcher",
-            "company": "Harvard Medical School",
+            "title": "Grad Student Researcher",
+            "company": "Harvard Med School",
             "href": "https://www.martinos.org/",
             "startDate": "04/2018",
             "endDate": "10/2018",
@@ -113,11 +113,11 @@
             "startDate": "09/2015",
             "endDate": "11/2018",
             "description": [
-                "Specialization in biomedical engineering. Research projects: ",
-                "• Asymmetric Diffusion Encoding for High-Resolution MR-DTI ",
-                "• Reconstruction Techniques for Free-breathing MR Elastography ",
-                "• Real-time Gradient Impulse Response Function Harvesting ",
-                "• EXCITE Zurich – biomedical imaging summer school 2017 "
+                "Biomedical engineering track. Research projects:",
+                "• Asymmetric Diffusion Encoding for High-Resolution MR-DTI",
+                "• Reconstruction Techniques for Free-breathing MR Elastography",
+                "• Real-time Gradient Impulse Response Function Harvesting",
+                "• EXCITE Zurich – biomedical imaging summer school 2017"
             ]
         },
         {
@@ -128,11 +128,11 @@
             "startDate": "09/2011",
             "endDate": "12/2016",
             "description":[
-                "Specialization in signal processing. International experience: ",
-                "• Chinese University of Hong Kong – exchange semester 2015/16 ",
-                "• Infineon Technologies – IAESTE internship 2015 ",
-                "• Beijing University – IARU summer school 2014 ",
-                "• EPF Lausanne – exchange semester 2013/14 "
+                "Signal processing track. International experience:",
+                "• CU Hong Kong – exchange semester 2015/16",
+                "• Infineon Technologies – IAESTE internship 2015",
+                "• Beijing University – IARU summer school 2014",
+                "• EPF Lausanne – exchange semester 2013/14"
             ]
         }
     ],
