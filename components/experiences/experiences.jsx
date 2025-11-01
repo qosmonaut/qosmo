@@ -14,7 +14,6 @@ const Experiences = (props) => {
                     startDate={object.startDate}
                     endDate={object.endDate}
                     description={object.description}
-                    logo={object.logo}
                     skills={object.skills}
                 />
             })}
