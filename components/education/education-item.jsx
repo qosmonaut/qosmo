@@ -7,7 +7,13 @@ function EducationItem(props) {
             <div className='basis-3/4'>
                 <a href={props.href} target="_blank" rel="noopener noreferrer" className='font-medium transition-all'>{props.subject} ({props.degree})</a>
                 <div className='text-surface-600 mb-4'>{props.university}</div>
-                <div className='text-surface-600'>{props.description}</div>
+                <div className='text-surface-600'>
+                        {Array.isArray(props.description)
+                                ? props.description.map((line, idx) => (
+                                        <span key={idx} className='block'>{line}</span>
+                                    ))
+                                : props.description}
+                </div>
             </div>
         </div>
     )

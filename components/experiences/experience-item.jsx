@@ -6,8 +6,13 @@ function ExperienceItem(props) {
             <div className='mr-2 text-surface-600 text-xs basis-1/4'>{props.startDate} – {checkEndDate(props)}</div>
             <div className='basis-3/4'>
                 <a href={props.href} target="_blank" rel="noopener noreferrer" className='font-medium transition-all'>{props.title} | {props.company} </a>
-                <div className='text-surface-600 mb-4'>{props.description}</div>
-                <div className='flex flex-row'>
+                <div className='text-surface-600 mb-4'>
+                        {Array.isArray(props.description)
+                                ? props.description.map((line, idx) => (
+                                        <span key={idx} className='block'>{line}</span>
+                                    ))
+                                : props.description}
+                </div>
                     {props.skills ? props.skills.map(function(object, index){
                         return <div key={object} className='bg-surface-400 py-1 px-3 rounded-full text-xs mr-2'>{object}</div>
                     }) : ""}
