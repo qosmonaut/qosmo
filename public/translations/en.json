@@ -62,7 +62,7 @@
         {
             "title": "Software Engineer",
             "company": "Roche Diagnostics",
-            "href": "",
+            "href": "https://www.roche.com/about/business/diagnostics",
             "startDate": "06/2019",
             "endDate": "06/2021",
             "description": "Designed a digital twin solution and signal processing pipeline for predictive maintenance for the Cobas 5800/8800 PCR system. Developed and compared performance of multiple end-to-end prototypes, including development of IoT edge devices and cloud-based analysis and monitoring applications. Engaged stakeholders and mediated client, business and engineering requirements for product development.",
@@ -77,7 +77,7 @@
         {
             "title": "Software Developer",
             "company": "Skope Magnetic Resonance Technologies",
-            "href": "",
+            "href": "https://skope.swiss/",
             "startDate": "07/2015",
             "endDate": "05/2019",
             "description": "Supported initial development of novel magnetic field monitoring technology for MRI applications in an ETH spin-off. Expanded real-time signal processing pipeline and visualization of field sensor data. Implemented control API and accompanying SDK for user application development. Set up DevOps process for acquisition application.",
@@ -92,7 +92,7 @@
         {
             "title": "Graduate Student Researcher",
             "company": "Harvard Medical School",
-            "href": "",
+            "href": "https://www.martinos.org/",
             "startDate": "04/2018",
             "endDate": "10/2018",
             "description": "Developed an optimization framework to generate asymmetric diffusion encoding gradient waveforms for high-resolution cardiovascular DTI. Implemented a proof-of-concept on a Siemens Connectome scanner.",
