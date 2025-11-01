@@ -2,7 +2,7 @@ import React from "react";
 
 function ExperienceItem(props) {
     return (
-        <div className="group flex flex-row mb-4 p-5 transition-all hover:bg-surface-200">
+        <div className="group flex flex-row mb-4 p-5 transition-all bg-background hover:bg-surface-200">
             <div className='mr-2 text-surface-600 text-xs basis-1/4'>{props.startDate} – {checkEndDate(props)}</div>
             <div className='basis-3/4'>
                 <a href={props.href} target="_blank" rel="noopener noreferrer" className='font-medium transition-all'>{props.title} | {props.company} </a>
@@ -13,8 +13,9 @@ function ExperienceItem(props) {
                                     ))
                                 : props.description}
                 </div>
+                <div className='flex flex-row flex-wrap gap-2'>
                     {props.skills ? props.skills.map(function(object, index){
-                        return <div key={object} className='bg-surface-400 py-1 px-3 rounded-full text-xs mr-2'>{object}</div>
+                        return <div key={object} className='bg-surface-400 py-1 px-3 rounded-full text-xs shrink-0 whitespace-nowrap'>{object}</div>
                     }) : ""}
                 </div>
             </div>
