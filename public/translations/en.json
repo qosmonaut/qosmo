@@ -138,7 +138,7 @@
     ],
     "volunteering": [
         {
-            "position": "Position Name",
+            "position": "Position 1",
             "event": "Event Name",
             "organisation": "Organisation Name",
             "href": "",
@@ -147,7 +147,7 @@
             "description": "Short description of your role at the event."
         },
         {
-            "position": "Position Name",
+            "position": "Position 2",
             "event": "Event Name",
             "organisation": "Organisation Name",
             "href": "",
@@ -156,7 +156,7 @@
             "description": "Short description of your role at the event."
         },
         {
-            "position": "Position Name",
+            "position": "Position 3",
             "event": "Event Name",
             "organisation": "Organisation Name",
             "href": "",

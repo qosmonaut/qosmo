@@ -5,7 +5,7 @@ const About = (props) => {
         <div data-section id='about' className='mb-16 group'>
             <div className='text-surface-600'>
                 {props.data.about.map(function(paragraph, index){
-                    return <div className='mb-6'>{paragraph}</div>
+                    return <div key={index} className='mb-6'>{paragraph}</div>
                 })}
             </div>
         </div>
