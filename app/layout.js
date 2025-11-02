@@ -1,7 +1,17 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, Space_Mono } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const body = Inter({
+  subsets: ['latin'],
+  variable: "--font-inter",
+  weight: ['400', '700']
+});
+
+const mono = Space_Mono({
+  subsets: ['latin'],
+  variable: "--font-space-mono",
+  weight: ['400', '700']
+});
 
 export const metadata = {
   title: 'Alen Roady | Qosmo',
@@ -11,7 +21,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${body.variable} ${mono.variable}`}>
+        {children}
+      </body>
     </html>
   )
 }
