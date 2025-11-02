@@ -1,18 +1,19 @@
 import React from "react";
+import Link from 'next/link';
 
 const Credits = (props) => {
         return (
         <div data-section id='credits' className='group mt-32'>
-            <div className='text-surface-600'>
-                <div className='mb-4'>
-                    Built on a <a href="https://github.com/karlgrossmann/two-column-portfolio" target="_blank" rel="noopener noreferrer" className="text-on-background transition-all hover:text-primary-500">template </a>
-                    by <a href="https://github.com/karlgrossmann/" target="_blank" rel="noopener noreferrer" className="text-on-background transition-all hover:text-primary-500">Karl Grossmann </a>
-                    using <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer" className="text-on-background transition-all hover:text-primary-500">Next.js </a>
-                    and <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer" className="text-on-background transition-all hover:text-primary-500"> Tailwind CSS</a>.
+            <div className='text-primary-400'>
+                <div className='mb-18'>
+                    Built on a <a href="https://github.com/karlgrossmann/two-column-portfolio" target="_blank" rel="noopener noreferrer" className="text-primary-400 transition-all hover:text-primary-300">template </a>
+                    by <a href="https://github.com/karlgrossmann/" target="_blank" rel="noopener noreferrer" className="text-primary-400 transition-all hover:text-highlight">Karl Grossmann </a>
+                    using <a href="https://nextjs.org" target="_blank" rel="noopener noreferrer" className="text-primary-400 transition-all hover:text-primary-300">Next.js </a>
+                    and <a href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer" className="text-primary-400 transition-all hover:text-primary-300"> Tailwind CSS</a>.
                 </div>
                 <div className='flex flex-row justify-between'>
-                    <a href="/imprint" rel="noopener noreferrer" className="scroll-auto transition-all hover:text-on-background">Imprint</a>
-                    <span><a href="/" rel="noopener noreferrer" className="scroll-auto transition-all hover:text-on-background">{props.data.name}</a> | 2025</span>
+                    <Link href="/imprint" className="hover:text-primary-400 scroll-auto transition-all">Imprint</Link>
+                    <span><Link href="/" className="hover:text-primary-400 scroll-auto transition-all">{props.data.name}</Link> | 2025</span>
                 </div>
             </div>
         </div>
