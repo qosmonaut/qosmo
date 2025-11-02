@@ -23,23 +23,23 @@
 ## Key Features
 
 * Simple and easy to edit - your version is up and running in minutes.
-  - All information of the page is loaded from a JSON file, which can be modified without coding knowledge.
-* Colors are easily customizable to your taste.
-  - There are a few presets, but adding your own color palette is very easy.
-* Mobile ready.
-  - Optimized for desktop, but looks good on mobile as well.
-* Deployed easily:
-  - Create a private fork of this repository on your GitHub account, change the details and deploy on your favorite platform.
+  - The contents of the page are loaded from a JSON file, which can be modified without editing the source.
+* Colors are easily customizable to your taste:
+  - There are a few presets, but adding your own palette is easy.
+* Mobile ready:
+  - Optimized for desktop and mobile devices.
+* Easily deployed:
+  - Fork the repository on GitHub, edit the details and deploy on your favorite platform (e.g. [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site), [Cloudflare Pages](https://developers.cloudflare.com/pages/get-started/) or [Vercel](https://vercel.com/docs/deployments)).
 
 ## How To Use
 
-To clone and run this website, you'll need to paste the following steps in your command line:
+To clone and run this site, run the commands below in your terminal:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/qosmonaut/qosmo
+# Fork and clone repo
+$ git clone https://github.com/USERNAME/qosmo
 
-# Go into the repository
+# Enter directory
 $ cd qosmo
 
 # Install dependencies
@@ -53,27 +53,26 @@ $ yarn build
 ```
 
 > **Note**
-> After running the app the live version of it is available at `localhost:3000`.
+> After running the dev command the live version of it is available at `localhost:3000`.
 
 ## Customization
 
 In order to customize the template to your own needs, please do the following.
 
-1. Edit the title and description of the website in the file `app/layout.js`.
-2. Add your personal details by editing the file `translations/en.json`
-   - You can specify an arbitrary number of positions in experiences (+ their skills), education, voluntering and projects.
-   - In the About section, multiple paragraphs can be created by creating multiple entries in the array `General:about`.
+1. Edit the title and description of the website in `app/layout.js`.
+2. Add your personal details by editing `translations/en.json`
+   - You can specify any number of positions in experiences and related skills, education, volunteering and projects.
+   - In the About section, multiple paragraphs can be created by creating multiple entries in the array `general:about`.
 3. Replace the file `app/favicon.ico` with a favicon of your choice.
-4. (Optional) Change the color palette by editing the file `tailwind.config.js`.
-5. (Optional) Edit the imprint and privacy statement if it is necessary in your country.
-6. Enjoy!
+4. (Optional) Change the color palette by editing `globals.css`.
+5. (Optional) Edit the imprint and privacy statement if it is necessary in the country/territory you live in.
 
-## Credits
+## Stack
 
-This software uses the following open source packages:
+This project uses the following open source packages:
 
-- [Next.js](https://nextjs.org)
-- [Tailwind CSS](https://tailwindcss.com)
+- [Next.js 16](https://nextjs.org)
+- [Tailwind CSS v4](https://tailwindcss.com)
 - [Heroicons](https://heroicons.com)
 
 ## License
