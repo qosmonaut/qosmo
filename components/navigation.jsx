@@ -29,7 +29,7 @@ const Navigation = () => {
     }, []);
 
     return (
-        <div id='navigation' className='py-10 font-medium tracking-widest'>
+        <div id='navigation' className='py-8 font-base tracking-widest'>
             <div className='flex flex-col w-max mx-auto lg:mx-0 items-start'>
                 <NavItem active={activeSection === 'about' ? true : false} href='#about' num='01' name="ABOUT"></NavItem>
                 <NavItem active={activeSection === 'experiences' ? true : false} href='#experiences' num='02' name="EXPERIENCES"></NavItem>
