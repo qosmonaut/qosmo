@@ -4,7 +4,7 @@ import VolunteeringItem from "./volunteering-item";
 const Volunteering = (props) => {
     return (
         <div data-section id='volunteering' className='mb-16'>
-            <h2 className='mb-8 visible lg:invisible font-medium tracking-widest'>Volunteering</h2>
+            <h2 className='visible mb-8 font-medium tracking-widest lg:invisible'>Volunteering</h2>
             {props.data.map(function(object, index){
                 return <VolunteeringItem  
                     key={`${object.position}+${object.startDate}`}

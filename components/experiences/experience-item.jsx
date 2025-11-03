@@ -2,8 +2,8 @@ import React from "react";
 
 function ExperienceItem(props) {
     return (
-        <div className="group flex flex-row mb-4 p-5 transition-all bg-background hover:bg-primary-100">
-            <div className='mr-2 text-sm text-primary-400 basis-1/4'>{props.startDate} – {checkEndDate(props)}</div>
+        <div className="group bg-background hover:bg-primary-100 mb-4 flex flex-row p-5 transition-all">
+            <div className='text-primary-400 mr-2 basis-1/4 text-sm'>{props.startDate} – {checkEndDate(props)}</div>
             <div className='basis-3/4'>
                 <a href={props.href} target="_blank" rel="noopener noreferrer" className='font-medium transition-all'>{props.title} | {props.company} </a>
                 <div className='text-primary-400 mb-4'>
@@ -15,7 +15,7 @@ function ExperienceItem(props) {
                 </div>
                 <div className='flex flex-row flex-wrap gap-2'>
                     {props.skills ? props.skills.map(function(object, index){
-                        return <div key={object} className='bg-primary-300 text-primary-50 px-3 py-1 rounded-full text-xs shrink-0 whitespace-nowrap'>{object}</div>
+                        return <div key={object} className='bg-primary-300 text-primary-50 shrink-0 rounded-full px-3 py-1 text-xs whitespace-nowrap'>{object}</div>
                     }) : ""}
                 </div>
             </div>

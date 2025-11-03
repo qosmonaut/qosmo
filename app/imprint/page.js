@@ -7,10 +7,10 @@ export default async function Imprint() {
     const data = JSON.parse(file);
 
     return (
-        <main className="flex min-h-screen font-mono text-sm flex-col p-24">
+        <main className="flex min-h-screen flex-col p-24 font-mono text-sm">
             <div className='flex flex-col'>
-                <Link href="/" className='mr-4 mb-6 transition-all flex flex-row hover:text-primary-300'>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5 mr-2">
+                <Link href="/" className='hover:text-primary-300 mr-4 mb-6 flex flex-row transition-all'>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="mr-2 h-5 w-5">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
                     </svg>
                     <span>Home</span>
