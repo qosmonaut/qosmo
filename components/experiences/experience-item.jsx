@@ -7,14 +7,13 @@ function ExperienceItem(props) {
             <div className='basis-3/4'>
                 <a href={props.href} target="_blank" rel="noopener noreferrer" className='font-medium transition-all'>{props.title} | {props.company} </a>
                 <div className='text-primary-400 mb-4'>
-                        {Array.isArray(props.description)
-                                ? props.description.map((line, idx) => (
-                                        <span key={idx} className='block'>{line}</span>
-                                    ))
-                                : props.description}
-                </div>
+                    {Array.isArray(props.description) ? 
+                        props.description.map((line, idx) => (
+                            <span key={idx} className='block'>{line}</span>
+                        )) : props.description}
+                </div>  
                 <div className='flex flex-row flex-wrap gap-2'>
-                    {props.skills ? props.skills.map(function(object, index){
+                    {props.skills ? props.skills.map((object, index) => {
                         return <div key={object} className='bg-primary-300 text-primary-50 shrink-0 rounded-full px-3 py-1 text-xs whitespace-nowrap'>{object}</div>
                     }) : ""}
                 </div>
