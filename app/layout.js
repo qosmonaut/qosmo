@@ -1,16 +1,14 @@
 import './globals.css'
-import { Inter, Space_Mono } from 'next/font/google'
+import { Inter, Noto_Sans_Mono } from 'next/font/google'
 
 const body = Inter({
   subsets: ['latin'],
   variable: "--font-inter",
-  weight: ['400', '700']
 });
 
-const mono = Space_Mono({
+const mono = Noto_Sans_Mono({
   subsets: ['latin'],
   variable: "--font-space-mono",
-  weight: ['400', '700']
 });
 
 export const metadata = {
