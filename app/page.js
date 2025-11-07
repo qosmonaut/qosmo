@@ -22,7 +22,7 @@ export default async function Home() {
           <Navigation></Navigation>
           <Socials data={data.general.socials}></Socials>
         </div>
-        <div className='lg:pl-[42%]'>
+        <div className='lg:pl-[35%]'>
           <About data={data.general}></About>
           <Experiences data={data.experiences}></Experiences>
           <Education data={data.education}></Education>
