@@ -107,7 +107,7 @@
     "education": [
         {
             "subject": "Electrical Engineering & Information Technology",
-            "degree": "Master of Science",
+            "degree": "MSc",
             "university": "ETH Zürich",
             "href": "https://ee.ethz.ch/studies/master-s-programmes/main-master.html",
             "startDate": "09/2015",
@@ -122,7 +122,7 @@
         },
         {
             "subject": "Electrical Engineering & Information Technology",
-            "degree": "Bachelor of Science",
+            "degree": "BSc",
             "university": "ETH Zürich",
             "href": "https://ee.ethz.ch/studies/bachelor/bsc-eeit.html",
             "startDate": "09/2011",
@@ -142,8 +142,8 @@
             "event": "Event Name",
             "organisation": "Organisation Name",
             "href": "",
-            "startDate": "2022",
-            "endDate": "",
+            "startDate": "09/2021",
+            "endDate": "09/2023",
             "description": "Short description of your role at the event."
         },
         {
@@ -151,8 +151,8 @@
             "event": "Event Name",
             "organisation": "Organisation Name",
             "href": "",
-            "startDate": "2022",
-            "endDate": "",
+            "startDate": "09/2016",
+            "endDate": "09/2018",
             "description": "Short description of your role at the event."
         },
         {
@@ -160,8 +160,8 @@
             "event": "Event Name",
             "organisation": "Organisation Name",
             "href": "",
-            "startDate": "2022",
-            "endDate": "",
+            "startDate": "09/2011",
+            "endDate": "09/2013",
             "description": "Short description of your role at the event."
         }
     ],
