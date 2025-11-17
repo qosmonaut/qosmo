@@ -22,7 +22,7 @@
             "href": "https://skaaltec.com",
             "startDate": "06/2024",
             "endDate": "",
-            "description": "Founding engineer in an early-stage ETH spin-off developing a neurorehabilitation system for stroke patients. Built and deployed IoT edge devices to partner clinics with Balena Cloud fleet management. Designed and built a proof-of-concept user platform and data pipeline. Created data strategy and ensured regulatory compliance of software products and patient data security. Set up development server, internal tooling, domains and web hosting with continuous deployment using Cloudflare Workers. Supervision of student projects and interns.",
+            "description": "Founding engineer in an early-stage ETH spin-off developing a neurorehabilitation system for stroke patients. Built and deployed IoT devices to partner clinics with Balena Cloud fleet management. Designed and built a user platform and data pipeline. Created a data strategy and ensured regulatory compliance of software products and patient data security. Set up development server, internal tooling, domains and web hosting with continuous deployment using Cloudflare Workers. Supervision of student projects and interns.",
             "skills": [
                 "Django",
                 "Docker",
@@ -138,54 +138,90 @@
     ],
     "volunteering": [
         {
-            "position": "Position 1",
-            "event": "Event Name",
-            "organisation": "Organisation Name",
-            "href": "",
-            "startDate": "09/2021",
-            "endDate": "09/2023",
-            "description": "Short description of your role at the event."
+            "position": "Pet Adoption Facilitator",
+            "event": "",
+            "organisation": "Spas Prijedor",
+            "href": "https://www.facebook.com/spasprijedor/",
+            "startDate": "01/2024",
+            "endDate": "",
+            "description": "Facilitate the adoption of stray cats and dogs from Bosnia to families in Switzerland"
         },
         {
-            "position": "Position 2",
-            "event": "Event Name",
-            "organisation": "Organisation Name",
-            "href": "",
-            "startDate": "09/2016",
-            "endDate": "09/2018",
-            "description": "Short description of your role at the event."
+            "position": "Foodsaver",
+            "event": "",
+            "organisation": "Foodsharing",
+            "href": "https://foodsharing.de/user/600354/profile",
+            "startDate": "04/2022",
+            "endDate": "",
+            "description": "Fighting food waste and promoting circular economy initiatives."
         },
         {
-            "position": "Position 3",
-            "event": "Event Name",
-            "organisation": "Organisation Name",
-            "href": "",
+            "position": "Camp Founder",
+            "event": "Nowhere",
+            "organisation": "Charming Chickpeas",
+            "href": "https://share.google/VGucDtObNdqWAUdZp",
+            "startDate": "07/2022",
+            "endDate": "07/2023",
+            "description": "Initiated and co-created a camp at the largest regional Burning Man event in Europe."
+        },
+        {
+            "position": "Guide",
+            "event": "IPhO 2016",
+            "organisation": "International Physics Olympiad",
+            "href": "https://science.olympiad.ch/ipho2016",
+            "startDate": "07/2016",
+            "endDate": "07/2016",
+            "description": "Guided participants during the competition and facilitated various activities."
+        },
+        {
+            "position": "Boardmember",
+            "event": "",
+            "organisation": "AMIV",
+            "href": "https://amiv.ethz.ch/en",
+            "startDate": "02/2013",
+            "endDate": "02/2014",
+            "description": "Organized events and represented the student body of the Department of Electrical Engineering and Information Technology at ETH Zurich."
+        },
+        {
+            "position": "Member / Boardmember / Chairperson",
+            "event": "",
+            "organisation": "EESTEC",
+            "href": "https://eestec.net/",
             "startDate": "09/2011",
-            "endDate": "09/2013",
-            "description": "Short description of your role at the event."
+            "endDate": "02/2016",
+            "description": "Various roles in the local and international student organization for electrical engineering and computer science students, including organizing technical and social events."
         }
     ],
     "projects": [
         {
-            "name": "two-column-portfolio",
+            "name": "portfolio",
             "framework": "next.js",
-            "description": "A simple two-column portfolio template that is easy and quick to customize for your own purposes. Mobile friendly.",
-            "href": "https://github.com/karlgrossmann/two-column-portfolio",
-            "stars": "0"
+            "description": "A simple mobile-friendly portfolio template that is easy to use and quick to customize for your own purposes",
+            "href": "https://github.com/qosmonaut/qosmo"
         },
        {
-            "name": "example-project",
-            "framework": "javascript",
-            "description": "Short description of your project.",
-            "href": "",
-            "stars": "2,712"
+            "name": "hiro-simba",
+            "framework": "javascript / html",
+            "description": "Static website to find new homes for two dogs from Bosnia. Built entirely on mobile with Copilot",
+            "href": "https://github.com/qosmonaut/hiro-simba"
        },
        {
-        "name": "example-project-2",
-        "framework": "flutter",
-        "description": "Short description of your project.",
-        "href": "",
-        "stars": "1,999"
-        } 
+        "name": "media-player-viz",
+        "framework": "javascript",
+        "description": "Old school Windows Media Player visualizations as a webapp. Built entirely on mobile with Copilot",
+        "href": "https://github.com/qosmonaut/media-player-viz"
+        },
+        {
+        "name": "Trailer sauna",
+        "framework": "woodworking",
+        "description": "Designed and built a trailer sauna from scratch during the COVID-19 lockdowns",
+        "href": "/trailer-sauna.jpg"
+        },
+        {
+        "name": "Vanlife travel log",
+        "framework": "vanlife",
+        "description": "Documented the first steps of the journey and experiences of living in a van in 2021",
+        "href": "https://www.polarsteps.com/VannyDeVito/4048680-funemployment-2021"
+        }
     ]
 }
