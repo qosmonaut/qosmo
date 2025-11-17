@@ -6,6 +6,7 @@ import 'yet-another-react-lightbox/styles.css';
 
 function ProjectItem(props) {
     const [isOpen, setIsOpen] = useState(false);
+    const [isExpanded, setIsExpanded] = useState(false);
     const isArray = Array.isArray(props.href);
     
     // Check if array contains images (common image extensions)
@@ -19,13 +20,17 @@ function ProjectItem(props) {
         if (isImageArray) {
             e.preventDefault();
             setIsOpen(true);
+        } else if (isArray && !isImageArray) {
+            // For non-image arrays on mobile, toggle expansion
+            e.preventDefault();
+            setIsExpanded(!isExpanded);
         }
     };
     
     const linkProps = isImageArray 
         ? { onClick: handleClick, style: { cursor: 'pointer' } }
         : isArray 
-            ? {} 
+            ? { onClick: handleClick, style: { cursor: 'pointer' } } 
             : { href: props.href, target: "_blank", rel: "noopener noreferrer" };
     
     // Prepare slides for lightbox
@@ -43,7 +48,7 @@ function ProjectItem(props) {
                 <div className="text-primary-400 text-xs">{props.description}</div>
                 
                 {isArray && !isImageArray && (
-                    <div className="mt-0 max-h-0 overflow-hidden transition-all duration-300 group-hover:mt-4 group-hover:max-h-40">
+                    <div className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'mt-4 max-h-40' : 'mt-0 max-h-0 group-hover:mt-4 group-hover:max-h-40'}`}>
                         <div className="text-primary-400 flex flex-wrap gap-2 text-xs">
                             {props.href.map((link, index) => (
                                 <a
@@ -52,6 +57,7 @@ function ProjectItem(props) {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="hover:text-highlight transition-colors"
+                                    onClick={(e) => e.stopPropagation()}
                                 >
                                     [{index + 1}]
                                 </a>
