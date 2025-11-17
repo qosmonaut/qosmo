@@ -232,6 +232,12 @@
             ]
         },
         {
+            "name": "skaaltec.com",
+            "framework": "astro/decap",
+            "description": "Design, Entwicklung und Verwaltung der Website mit integrierten CMS für Nachrichtenbeiträge",
+            "href": "https://www.skaaltec.com"
+        },
+        {
             "name": "portfolio",
             "framework": "next.js",
             "description": "Eine einfache mobile-freundliche Portfolio-Vorlage, die einfach zu verwenden und schnell für eigene Zwecke anzupassen ist",

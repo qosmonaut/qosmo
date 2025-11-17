@@ -232,7 +232,13 @@
             ]
         },
         {
-            "name": "portfolio",
+            "name": "skaaltec.com",
+            "framework": "astro/decap",
+            "description": "Designed, built and managed the corporate site for Skaaltec with an integrated CMS for News posts and top performance/SEO marks",
+            "href": "https://www.skaaltec.com"
+        },
+        {
+            "name": "portfolio-site",
             "framework": "next.js",
             "description": "A simple mobile-friendly portfolio template that is easy to use and quick to customize for your own purposes",
             "href": "https://github.com/qosmonaut/qosmo"
