@@ -10,7 +10,6 @@ const Projects = (props) => {
                     return <ProjectItem
                         key={object.name}
                         name={object.name}
-                        stars={object.stars}
                         lib={object.framework}
                         description={object.description}
                         href={object.href}
