@@ -15,6 +15,13 @@
             "github": "https://github.com/qosmonaut"
         }
     },
+    "navigation": {
+        "about": "About",
+        "experiences": "Experiences",
+        "education": "Education",
+        "volunteering": "Volunteering",
+        "projects": "Projects"
+    },
     "experiences": [
         {
             "title": "Principal SW Engineer",
