@@ -3,9 +3,6 @@ import Link from 'next/link';
 import {promises as fs} from 'fs';
 
 export default async function Imprint() {
-    const file = await fs.readFile(process.cwd() + '/public/translations/en.json', 'utf-8');
-    const data = JSON.parse(file);
-
     return (
         <main className="flex min-h-screen flex-col p-24 font-mono text-sm">
             <div className='flex flex-col'>
