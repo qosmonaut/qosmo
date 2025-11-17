@@ -6,7 +6,7 @@
         "alt": "Profile picture",
         "about": [
             "Welcome to my site! I'm an engineer with 7+ years of experience working in regulated medtech environments, from start-ups to multinationals.",
-            "I design, build and maintain robust, full-stack software and data platforms aligned with business needs. My goal is to apply my systems engineering skills to create data-driven solutions that work for the benefit of patients and healthcare providers."
+            "I design, build and maintain robust, full-stack software and data platforms aligned with business needs. My goal is to apply my systems engineering skills to create data-driven solutions that work for the benefit of both patients and healthcare providers."
         ],
         "socials": {
             "email": "alenroady@gmail.com",
@@ -99,7 +99,7 @@
         },
         {
             "title": "Software Developer",
-            "company": "Skope MR Technologies",
+            "company": "Skope",
             "href": "https://skope.swiss/",
             "startDate": "07/2015",
             "endDate": "05/2019",
