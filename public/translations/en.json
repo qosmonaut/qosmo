@@ -243,7 +243,16 @@
         "name": "Trailer sauna",
         "framework": "woodworking",
         "description": "Designed and built a trailer sauna from scratch during the COVID-19 lockdowns",
-        "href": "/trailer-sauna.jpg"
+        "href": [
+            "/projects/sauna-lake.webp",
+            "/projects/sauna-model.webp",
+            "/projects/sauna-roof.webp",
+            "/projects/sauna-window.webp",
+            "/projects/sauna-interior.webp",
+            "/projects/sauna-snow.webp",
+            "/projects/sauna-driving.webp",
+            "/projects/sauna-event.webp"
+        ]
         },
         {
         "name": "Vanlife travel log",

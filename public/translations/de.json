@@ -241,9 +241,18 @@
         },
         {
         "name": "Anhängersauna",
-        "framework": "Holzarbeiten",
+        "framework": "Holzverarbeitung",
         "description": "Eine Anhängersauna während der COVID-19-Lockdowns von Grund auf gestaltet und gebaut",
-        "href": "/trailer-sauna.jpg"
+        "href": [
+            "/projects/sauna-lake.webp",
+            "/projects/sauna-model.webp",
+            "/projects/sauna-roof.webp",
+            "/projects/sauna-window.webp",
+            "/projects/sauna-interior.webp",
+            "/projects/sauna-snow.webp",
+            "/projects/sauna-driving.webp",
+            "/projects/sauna-event.webp"
+        ]
         },
         {
         "name": "Vanlife Reisetagebuch",
