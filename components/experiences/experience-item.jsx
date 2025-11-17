@@ -3,7 +3,7 @@ import React from "react";
 function ExperienceItem(props) {
     return (
         <div className="group bg-background hover:bg-primary-100 mb-4 flex flex-row p-5 transition-all">
-            <div className='text-primary-400 mr-2 basis-1/4 text-sm font-mono'>{props.startDate} – {checkEndDate(props)}</div>
+            <div className='text-primary-400 mr-2 basis-1/4 text-sm font-mono'>{props.startDate} – {props.endDate}</div>
             <div className='basis-3/4'>
                 <a href={props.href} target="_blank" rel="noopener noreferrer" className='font-medium transition-all'>{props.title} | {props.company} </a>
                 <div className='text-primary-400 mb-4'>
@@ -20,14 +20,6 @@ function ExperienceItem(props) {
             </div>
         </div>
     )
-}
-
-function checkEndDate(props) {
-    if (!props.endDate) {
-        return 'present';
-    } else {
-        return (props.endDate); 
-    }  
 }
 
 export default ExperienceItem
