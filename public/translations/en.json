@@ -222,6 +222,16 @@
     ],
     "projects": [
         {
+            "name": "MRI Methodology",
+            "framework": "Research",
+            "description": "Collection of research projects in MRI methodology I worked on during my Master's studies at ETH Zürich and Harvard Medical School",
+            "href": [
+                "/research/Asymmetric_Diffusion_Encoding_for_High-Resolution_Diffusion_Tensor_Imaging.pdf",
+                "/research/Compressed_Sensing_Reconstruction_for_MR_Elastography.pdf",
+                "/research/Real-time_Harvesting_of_Gradient_Impulse_Response_Functions.pdf"
+            ]
+        },
+        {
             "name": "portfolio",
             "framework": "next.js",
             "description": "A simple mobile-friendly portfolio template that is easy to use and quick to customize for your own purposes",

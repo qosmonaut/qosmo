@@ -222,6 +222,16 @@
     ],
     "projects": [
         {
+            "name": "MRT Methodologie",
+            "framework": "Forschung",
+            "description": "Sammlung von Forschungsprojekten in der MRT-Methodologie, an denen ich während meines Masterstudiums an der ETH Zürich und der Harvard Medical School gearbeitet habe",
+            "href": [
+                "/research/Asymmetric_Diffusion_Encoding_for_High-Resolution_Diffusion_Tensor_Imaging.pdf",
+                "/research/Compressed_Sensing_Reconstruction_for_MR_Elastography.pdf",
+                "/research/Real-time_Harvesting_of_Gradient_Impulse_Response_Functions.pdf"
+            ]
+        },
+        {
             "name": "portfolio",
             "framework": "next.js",
             "description": "Eine einfache mobile-freundliche Portfolio-Vorlage, die einfach zu verwenden und schnell für eigene Zwecke anzupassen ist",
