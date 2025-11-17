@@ -1,4 +1,6 @@
-import React from 'react';
+'use client';
+
+import React, { useState, useEffect } from 'react';
 import Profile from "@/components/profile";
 import Navigation from "@/components/navigation";
 import Socials from "@/components/socials";
@@ -9,32 +11,47 @@ import Projects from '@/components/projects/projects';
 import Volunteering from "@/components/volunteering/volunteering";
 import Credits from '@/components/credits';
 import LanguageSwitcher from '@/components/language-switcher';
-import {promises as fs} from 'fs';
 
-export default async function Home({ searchParams }) {
-  const params = await searchParams;
-  const lang = params?.lang || 'en';
-  const file = await fs.readFile(process.cwd() + `/public/translations/${lang}.json`, 'utf-8');
-  const data = JSON.parse(file);
+export default function Home() {
+  const [currentLang, setCurrentLang] = useState('en');
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    // Load translation file based on current language
+    fetch(`/translations/${currentLang}.json`)
+      .then(res => res.json())
+      .then(jsonData => setData(jsonData))
+      .catch(err => console.error('Error loading translations:', err));
+  }, [currentLang]);
+
+  if (!data) {
+    return (
+      <main className="font-body flex min-h-screen flex-col items-center justify-center">
+        <div>Loading...</div>
+      </main>
+    );
+  }
 
   return (
-    <main className="font-body flex min-h-screen flex-col items-center px-4 py-12 lg:px-24 lg:py-24">
+    <main className="font-body flex min-h-screen flex-col items-center px-4 py-12 lg:px-20 lg:py-20">
       <div className="z-2 flex w-full max-w-6xl flex-col text-base lg:flex-row">
         <div className="mb-8 lg:-mt-16 lg:fixed">
-          <LanguageSwitcher />
+          <LanguageSwitcher currentLang={currentLang} setCurrentLang={setCurrentLang} />
         </div>
-        <div className="flex flex-col gap-6 pb-16 lg:fixed lg:h-fit lg:justify-between">
-          <Profile data={data.general} />
-          <Navigation data={data.navigation} />
+        <div className="flex flex-col pb-16 lg:fixed lg:h-[94%] lg:justify-between">
+          <div className='flex flex-col'>
+            <Profile data={data.general} />
+            <Navigation data={data.navigation} />
+          </div>
           <Socials data={data.general.socials} />
         </div>
         <div className='lg:pl-[35%]'>
           <About data={data.general} />
-          <Experiences data={data.experiences} />
-          <Education data={data.education} />
-          <Volunteering data={data.volunteering} />
-          <Projects data={data.projects} />
-          <Credits data={data.general} />
+          <Experiences data={data} />
+          <Education data={data} />
+          <Volunteering data={data} />
+          <Projects data={data} />
+          <Credits data={data} />
         </div>
       </div>
     </main>

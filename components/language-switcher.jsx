@@ -1,24 +1,10 @@
-'use client';
-
 import React from 'react';
-import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 
-const LanguageSwitcher = () => {
-    const router = useRouter();
-    const pathname = usePathname();
-    const searchParams = useSearchParams();
-    const currentLang = searchParams.get('lang') || 'en';
-
-    const switchLanguage = (lang) => {
-        const params = new URLSearchParams(searchParams);
-        params.set('lang', lang);
-        router.push(`${pathname}?${params.toString()}`);
-    };
-
+const LanguageSwitcher = ({ currentLang, setCurrentLang }) => {
     return (
         <div className="flex flex-row gap-2 items-center justify-end">
             <button
-                onClick={() => switchLanguage('en')}
+                onClick={() => setCurrentLang('en')}
                 className={`px-3 py-1 text-sm font-medium transition-all rounded ${
                     currentLang === 'en'
                         ? 'bg-primary-400 text-primary-50'
@@ -28,7 +14,7 @@ const LanguageSwitcher = () => {
                 EN
             </button>
             <button
-                onClick={() => switchLanguage('de')}
+                onClick={() => setCurrentLang('de')}
                 className={`px-3 py-1 text-sm font-medium transition-all rounded ${
                     currentLang === 'de'
                         ? 'bg-primary-400 text-primary-50'
