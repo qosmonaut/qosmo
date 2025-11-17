@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <main className="font-body flex min-h-screen flex-col items-center px-4 py-12 lg:px-24 lg:py-24">
       <div className="z-2 flex w-full max-w-6xl flex-col text-base lg:flex-row">
-        <div className="mb-8 lg:-mt-16 lg:fixed">
+        <div className="mb-8 -mt-8 lg:-mt-16 lg:fixed">
           <LanguageSwitcher currentLang={currentLang} setCurrentLang={setCurrentLang} />
         </div>
         <div className="flex flex-col pb-16 lg:fixed lg:h-[91%] lg:justify-between">
