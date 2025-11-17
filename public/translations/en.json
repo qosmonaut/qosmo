@@ -20,7 +20,8 @@
         "experiences": "Experiences",
         "education": "Education",
         "volunteering": "Volunteering",
-        "projects": "Projects"
+        "projects": "Projects",
+        "imprint": "Imprint"
     },
     "experiences": [
         {
@@ -35,7 +36,11 @@
                 "Docker",
                 "React",
                 "Python",
-                "Rust"
+                "Rust",
+                "PostgreSQL",
+                "Balena Cloud",
+                "SW Architecture",
+                "Regulatory"
             ]
         },
         {
@@ -46,10 +51,13 @@
             "endDate": "09/2023",
             "description": "Co-founded an association to promote expanded access to self-administered rapid diagnostic tests for STIs. Collected market data and performed comparative analysis of commercially available lateral flow devices. Developed go-to-market strategy and analyzed product-market fit. Supported fundraising, branding and operations.",
            "skills": [
+                "Astro",
+                "Branding",
                 "Regulatory",
-                "Growth",
+                "Business Development",
                 "Partnerships",
-                "Astro"
+                "Fundraising",
+                "Operations"
             ]
         },
         {
@@ -60,10 +68,13 @@
             "endDate": "03/2022",
             "description": "Provided technical consulting for the design and development of a medical wearable. Set up an ML training pipeline and provided training to staff software engineers. Created initial prototype implementation of an embedded ML algorithm for real-time analysis of cardiovascular and kinematic features.",
             "skills": [
-                "Training",
                 "TinyML",
                 "PyTorch",
-                "InfluxDB"
+                "InfluxDB",
+                "Kubernetes",
+                "MLOps",
+                "Technical Training",
+                "Customer Relations"
             ]
         },
         {
@@ -75,10 +86,15 @@
             "description": "Designed a digital twin solution and signal processing pipeline for predictive maintenance for the Cobas 6800/8800 PCR system. Developed and compared performance of multiple end-to-end prototypes, including development of IoT edge devices and cloud-based analysis and monitoring applications. Engaged stakeholders and mediated client, business and engineering requirements for product development.",
             "skills": [
                 "GCP",
+                "IoT",
                 "Grafana",
                 "Docker",
+                "Kubernetes",
+                "Tensorflow",
                 "C++",
-                "NoSQL"
+                "NoSQL",
+                "GitLab CI/CD",
+                "Agile"
             ]
         },
         {
@@ -93,7 +109,9 @@
                 "C#",
                 "MatLab",
                 "Jekyll",
-                "APIs"
+                "SDK development",
+                "Real-time signal processing",
+                "MR Methodologies"
             ]
         },
         {
@@ -106,8 +124,11 @@
             "skills": [
                 "Python",
                 "CPLEX",
-                "Convex optim",
-                "MatLab"
+                "MatLab",
+                "Convex Optimization",
+                "MR Physics",
+                "Diffusion Tensor Imaging",
+                "Scientific Writing"
             ]
         }
     ],
@@ -151,7 +172,7 @@
             "href": "https://www.facebook.com/spasprijedor/",
             "startDate": "01/2024",
             "endDate": "",
-            "description": "Facilitate the adoption of stray cats and dogs from Bosnia to families in Switzerland"
+            "description": "Facilitate the adoption of stray cats and dogs from Bosnia to families in Switzerland."
         },
         {
             "position": "Foodsaver",

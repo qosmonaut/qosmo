@@ -1,11 +1,11 @@
 {
     "general": {
         "name": "Alen Roady",
-        "headline": "Das Unbeachtete im Blick.",
+        "headline": "Das wenig beachtete im Blick.",
         "image": "/profile.png",
         "alt": "Profilbild",
         "about": [
-            "Willkommen auf meiner Webseite! Ich bin Ingenieur mit über 7 Jahren Erfahrung in Medtech-Bereich, von Start-ups bis Grosskonzernen. ",
+            "Willkommen auf meiner Homepage! Ich bin Ingenieur mit über 7 Jahren Erfahrung im Medtech-Bereich, von Start-ups bis Grosskonzernen. ",
             "Ich entwickle, implementiere und verwalte robuste Software- und Datenplattformen, die auf die Geschäftsanforderungen abgestimmt sind. Mein Ziel ist es, meine Systemtechnik-Kompetenzen einzusetzen, um datenbasierte Lösungen für Patienten und medizinisches Fachpersonal zu entwickeln."
         ],
         "socials": {
@@ -20,7 +20,8 @@
         "experiences": "Erfahrungen",
         "education": "Ausbildung",
         "volunteering": "Ehrenamt",
-        "projects": "Projekte"
+        "projects": "Projekte",
+        "imprint": "Impressum"
     },
     "experiences": [
         {
@@ -35,7 +36,11 @@
                 "Docker",
                 "React",
                 "Python",
-                "Rust"
+                "Rust",
+                "PostgreSQL",
+                "Balena Cloud",
+                "SW-Architektur",
+                "Regulatory"
             ]
         },
         {
@@ -46,10 +51,13 @@
             "endDate": "09/2023",
             "description": "Gründung von einem Verein zwecks Verbreitung von Schnelltests für sexuell übertragbare Infektionen (STI). Erhebung von Marktdaten und Erstellung von Vergleichsanalysen handelsüblicher Lateral-Flow-Tests. Entwicklung der Markteintrittsstrategie und Unterstützung im Fundraising sowie operativer Abläufe.",
            "skills": [
+                "Astro",
+                "Branding",
                 "Regulatory",
-                "Growth",
+                "Business Development",
                 "Partnerships",
-                "Astro"
+                "Fundraising",
+                "Operations"
             ]
         },
         {
@@ -60,10 +68,13 @@
             "endDate": "03/2022",
             "description": "Technische Beratung für die Konzeption und Entwicklung eines medizinischen Wearables. Einrichtung der ML-Trainingspipeline und Schulung der Softwareentwickler. Entwickelte einen eingebetteten ML-Algorithmus zur Echtzeitanalyse kardiovaskulärer und kinematischer Merkmale.",
             "skills": [
-                "Training",
                 "TinyML",
                 "PyTorch",
-                "InfluxDB"
+                "InfluxDB",
+                "Kubernetes",
+                "MLOps",
+                "Technical Training",
+                "Kundenbeziehungen"
             ]
         },
         {
@@ -75,10 +86,15 @@
             "description": "Entwickelte eine digital twin Lösung und Signalverarbeitungspipeline zur predictive maintenance vom Cobas 6800/8800 System. Entwicklung unf Vergleich der Leistung mehrerer Prototypen, einschliesslich der Entwicklung von IoT-Edge-Geräten und cloudbasierten Analyse- und Überwachungsanwendungen. Enge Zusammenarbeit mit verschiedenen Stakeholdern und Abgleich von Kunden-, Geschäfts- und Entwicklungs-Anforderungen.",
             "skills": [
                 "GCP",
+                "IoT",
                 "Grafana",
                 "Docker",
+                "Kubernetes",
+                "Tensorflow",
                 "C++",
-                "NoSQL"
+                "NoSQL",
+                "GitLab CI/CD",
+                "Agile"
             ]
         },
         {
@@ -93,7 +109,9 @@
                 "C#",
                 "MatLab",
                 "Jekyll",
-                "APIs"
+                "SDK-Entwicklung",
+                "Echtzeit-Signalverarbeitung",
+                "MR-Methodik"
             ]
         },
         {
@@ -106,8 +124,11 @@
             "skills": [
                 "Python",
                 "CPLEX",
-                "Convex optim",
-                "MatLab"
+                "MatLab",
+                "Konvexe Optimierung",
+                "MR-Physik",
+                "Diffusions-Tensor-Bildgebung",
+                "Wissenschaftliches Schreiben"
             ]
         }
     ],
@@ -219,9 +240,9 @@
         "href": "https://github.com/qosmonaut/media-player-viz"
         },
         {
-        "name": "Anhänger-Sauna",
+        "name": "Anhängersauna",
         "framework": "Holzarbeiten",
-        "description": "Konzipiert und von Grund auf während der COVID-19-Lockdowns eine Anhänger-Sauna gebaut",
+        "description": "Eine Anhängersauna während der COVID-19-Lockdowns von Grund auf gestaltet und gebaut",
         "href": "/trailer-sauna.jpg"
         },
         {
