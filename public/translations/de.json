@@ -10,7 +10,7 @@
         ],
         "socials": {
             "email": "alenroady@gmail.com",
-            "cv": "/cv/alen-de.pdf",
+            "cv": "/cv/de.pdf",
             "linkedin": "https://www.linkedin.com/in/alenroady",
             "github": "https://github.com/qosmonaut"
         }
@@ -142,9 +142,9 @@
             "endDate": "11/2018",
             "description": [
                 "Vertiefung in Biomedizintechnik. Forschungsprojekte:",
-                "• Asymmetrische Diffusionskodierung für hochauflösende MR-DTI",
-                "• Rekonstruktionstechniken für die MR-Elastographie bei freier Atmung",
-                "• Echtzeit-Ernte der Gradientenimpulsantwortfunktion",
+                "• Asymmetric Diffusion Encoding for High-Resolution MR-DTI",
+                "• Compressed Sensing Reconstruction for Free-Breathing MR Elastography",
+                "• Real-time Gradient Impulse Response Function Harvesting",
                 "• EXCITE Zurich – Sommerschule für biomedizinische Bildgebung 2017"
             ]
         },
