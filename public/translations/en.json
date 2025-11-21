@@ -26,7 +26,7 @@
     "experiences": [
         {
             "title": "Principal SW Engineer",
-            "company": "Skaaltec / ETH RELab",
+            "company": "Skaaltec / ETH Rehabilitation Engineering Lab",
             "href": "https://skaaltec.com",
             "startDate": "06/2024",
             "endDate": "",
@@ -99,7 +99,7 @@
         },
         {
             "title": "Software Developer",
-            "company": "Skope",
+            "company": "Skope Magnetic Resonance Technologies",
             "href": "https://skope.swiss/",
             "startDate": "07/2015",
             "endDate": "05/2019",
@@ -116,7 +116,7 @@
         },
         {
             "title": "Grad Student Researcher",
-            "company": "Harvard Med School",
+            "company": "Harvard Medical School",
             "href": "https://www.martinos.org/",
             "startDate": "04/2018",
             "endDate": "10/2018",
@@ -172,7 +172,7 @@
             "href": "https://www.facebook.com/spasprijedor/",
             "startDate": "01/2024",
             "endDate": "",
-            "description": "Facilitate the adoption of stray cats and dogs from Bosnia to families in Switzerland."
+            "description": "Facilitate the adoption of stray cats and dogs from Bosnia to families in Switzerland. Distribute information to promote adoptions and raise funds for the medical care of the animals."
         },
         {
             "position": "Foodsaver",
@@ -181,16 +181,16 @@
             "href": "https://foodsharing.de/user/600354/profile",
             "startDate": "04/2022",
             "endDate": "",
-            "description": "Fighting food waste and promoting circular economy initiatives."
+            "description": "Fighting food waste and promoting circular economy initiatives. Rescuing surplus food from supermarkets and bakeries and distributing it to the community."
         },
         {
             "position": "Camp Founder",
-            "event": "Nowhere",
-            "organisation": "Charming Chickpeas",
+            "event": "",
+            "organisation": "Nowhere",
             "href": "https://share.google/VGucDtObNdqWAUdZp",
             "startDate": "07/2022",
             "endDate": "07/2023",
-            "description": "Initiated and co-created a camp at the largest regional Burning Man event in Europe."
+            "description": "Initiated and co-created a camp of 20 people at the largest regional Burning Man event in Europe held annually in the Monegros desert in Spain."
         },
         {
             "position": "Guide",
@@ -199,12 +199,12 @@
             "href": "https://science.olympiad.ch/ipho2016",
             "startDate": "07/2016",
             "endDate": "07/2016",
-            "description": "Guided participants during the competition and facilitated various activities."
+            "description": "Guided the ~500 participants for 10 days during the competition and facilitated activities. Team guide for the student team of Bosnia and Herzegovina."
         },
         {
             "position": "Boardmember",
             "event": "",
-            "organisation": "AMIV",
+            "organisation": "Akademischer Maschinen- und Elektro-Ingenieur Verein",
             "href": "https://amiv.ethz.ch/en",
             "startDate": "02/2013",
             "endDate": "02/2014",
@@ -213,7 +213,7 @@
         {
             "position": "Member / Boardmember / Chairperson",
             "event": "",
-            "organisation": "EESTEC",
+            "organisation": "Electrical Engineering Students' European Association",
             "href": "https://eestec.net/",
             "startDate": "09/2011",
             "endDate": "02/2016",
@@ -233,23 +233,29 @@
         },
         {
             "name": "skaaltec.com",
-            "framework": "astro/decap",
+            "framework": "astro / decap",
             "description": "Designed, built and managed the corporate site for Skaaltec with an integrated CMS for News posts and top performance/SEO marks",
             "href": "https://www.skaaltec.com"
         },
         {
-            "name": "portfolio-site",
+            "name": "portfolio-template",
             "framework": "next.js",
             "description": "A simple mobile-friendly portfolio template that is easy to use and quick to customize for your own purposes",
             "href": "https://github.com/qosmonaut/qosmo"
         },
-       {
+        {
+            "name": "data-canvas-live",
+            "framework": "React",
+            "description": "A live demo of a data canvas application built with Lovable",
+            "href": "https://github.com/qosmonaut/data-canvas-live"
+        },
+        {
             "name": "hiro-simba",
-            "framework": "javascript / html",
+            "framework": "html / css",
             "description": "Static website to find new homes for two dogs from Bosnia. Built entirely on mobile with Copilot",
             "href": "https://github.com/qosmonaut/hiro-simba"
-       },
-       {
+        },
+        {
         "name": "media-player-viz",
         "framework": "javascript",
         "description": "Old school Windows Media Player visualizations as a webapp. Built entirely on mobile with Copilot",
@@ -272,7 +278,7 @@
         },
         {
         "name": "Vanlife travel log",
-        "framework": "vanlife",
+        "framework": "travel",
         "description": "Documented the first steps of the journey and experiences of living in a van in 2021",
         "href": "https://www.polarsteps.com/VannyDeVito/4048680-funemployment-2021"
         }

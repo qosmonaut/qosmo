@@ -26,7 +26,7 @@
     "experiences": [
         {
             "title": "Leitender Software-Ingenieur",
-            "company": "Skaaltec / ETH RELab",
+            "company": "Skaaltec / Rehabilitation Engineering Lab",
             "href": "https://skaaltec.com",
             "startDate": "06/2024",
             "endDate": "",
@@ -99,7 +99,7 @@
         },
         {
             "title": "Softwareentwickler",
-            "company": "Skope",
+            "company": "Skope Magnetic Resonance Technologies",
             "href": "https://skope.swiss/",
             "startDate": "07/2015",
             "endDate": "05/2019",
@@ -116,7 +116,7 @@
         },
         {
             "title": "Forschungspraktikant",
-            "company": "Harvard Med School",
+            "company": "Harvard Medical School",
             "href": "https://www.martinos.org/",
             "startDate": "04/2018",
             "endDate": "10/2018",
@@ -172,7 +172,7 @@
             "href": "https://www.facebook.com/spasprijedor/",
             "startDate": "01/2024",
             "endDate": "",
-            "description": "Vermittlung von streunenden Katzen und Hunden aus Bosnien an Familien in der Schweiz"
+            "description": "Vermittlung von streunenden Katzen und Hunden aus Bosnien an Familien in der Schweiz. Verteilen von Informationen zurFörderung der Adoptionen und Sammlung von Spenden für die medizinische Versorgung der Tiere."
         },
         {
             "position": "Foodsaver",
@@ -181,16 +181,16 @@
             "href": "https://foodsharing.de/user/600354/profile",
             "startDate": "04/2022",
             "endDate": "",
-            "description": "Bekämpfung von Lebensmittelverschwendung und Förderung von Kreislaufwirtschaftsinitiativen."
+            "description": "Bekämpfung von Lebensmittelverschwendung und Förderung von Kreislaufwirtschaftsinitiativen. Rettung von überschüssigen Lebensmitteln aus Supermärkten, Restaurants und Bäckereien und Verteilung an die Gemeinschaft."
         },
         {
             "position": "Camp-Gründer",
-            "event": "Nowhere",
-            "organisation": "Charming Chickpeas",
+            "event": "",
+            "organisation": "Nowhere",
             "href": "https://share.google/VGucDtObNdqWAUdZp",
             "startDate": "07/2022",
             "endDate": "07/2023",
-            "description": "Initiierte ein Camp am grössten regionalen Burning Man Event in Europa."
+            "description": "Initiierte ein Camp mit 20 Personen am grössten regionalen Burning Man Event in Europa, welches jährlich in der Monegros-Wüste in Spanien stattfindet."
         },
         {
             "position": "Guide",
@@ -199,12 +199,12 @@
             "href": "https://science.olympiad.ch/ipho2016",
             "startDate": "07/2016",
             "endDate": "07/2016",
-            "description": "Begleitete Teilnehmer während des Wettbewerbs und organisierte verschiedene Aktivitäten."
+            "description": "Begleitete die ~500 Teilnehmer für 10 Tage während des Wettbewerbs und organisierte Aktivitäten. Team-Guide für das Studententeam von Bosnien und Herzegowina."
         },
         {
             "position": "Vorstandsmitglied",
             "event": "",
-            "organisation": "AMIV",
+            "organisation": "Akademischer Maschinen- und Elektro-Ingenieur Verein",
             "href": "https://amiv.ethz.ch/en",
             "startDate": "02/2013",
             "endDate": "02/2014",
@@ -213,7 +213,7 @@
         {
             "position": "Mitglied / Vorstandsmitglied / Vorsitzender",
             "event": "",
-            "organisation": "EESTEC",
+            "organisation": "Electrical Engineering Students' European Association",
             "href": "https://eestec.net/",
             "startDate": "09/2011",
             "endDate": "02/2016",
@@ -233,23 +233,29 @@
         },
         {
             "name": "skaaltec.com",
-            "framework": "astro/decap",
+            "framework": "astro / decap",
             "description": "Design, Entwicklung und Verwaltung der Website mit integrierten CMS für Nachrichtenbeiträge",
             "href": "https://www.skaaltec.com"
         },
         {
-            "name": "portfolio",
+            "name": "portfolio-template",
             "framework": "next.js",
             "description": "Eine einfache mobile-freundliche Portfolio-Vorlage, die einfach zu verwenden und schnell für eigene Zwecke anzupassen ist",
             "href": "https://github.com/qosmonaut/qosmo"
         },
-       {
+        {
+            "name": "data-canvas-live",
+            "framework": "React",
+            "description": "Eine Live-Demo einer Data-Canvas-Anwendung, erstellt mit Lovable",
+            "href": "https://github.com/qosmonaut/data-canvas-live"
+        },
+        {
             "name": "hiro-simba",
-            "framework": "javascript / html",
+            "framework": "html / css",
             "description": "Statische Website zur Vermittlung von zwei Hunden aus Bosnien. Vollständig auf dem Handy mit Copilot entwickelt",
             "href": "https://github.com/qosmonaut/hiro-simba"
-       },
-       {
+        },
+        {
         "name": "media-player-viz",
         "framework": "javascript",
         "description": "Old-School Windows Media Player-Visualisierungen als Webapp. Vollständig auf dem Handy mit Copilot entwickelt",
@@ -272,7 +278,7 @@
         },
         {
         "name": "Vanlife Reisetagebuch",
-        "framework": "vanlife",
+        "framework": "reisen",
         "description": "Dokumentation der ersten Schritte und Erfahrungen des Lebens in einem Van im Jahr 2021",
         "href": "https://www.polarsteps.com/VannyDeVito/4048680-funemployment-2021"
         }
