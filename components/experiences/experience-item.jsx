@@ -10,7 +10,7 @@ function ExperienceItem(props) {
             className={`group bg-background hover:bg-primary-100 mb-4 flex flex-row p-5 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${isVisible ? 'animate-fade-in' : 'animate-fade-out'}`}
         >
             <div className='basis-1/4'>
-                <div className='mr-2 w-full text-sm font-mono'>{props.startDate} – {props.endDate}</div>
+                <div className='mr-2 w-full text-sm font-mono'>{props.startDate} – {checkEndDate(props)}</div>
                 {props.logo && (
                     <img src={props.logo} alt={props.company} className='m-4 w-24 object-contain transition-all duration-300 group-hover:scale-110 group-hover:brightness-110' />
                 )}
@@ -37,6 +37,14 @@ function ExperienceItem(props) {
             </div>
         </div>
     )
+}
+
+function checkEndDate(props) {
+    if (!props.endDate) {
+        return 'present';
+    } else {
+        return (props.endDate); 
+    }  
 }
 
 export default ExperienceItem
