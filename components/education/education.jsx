@@ -12,6 +12,7 @@ const Education = (props) => {
                     degree={object.degree}
                     university={object.university}
                     href={object.href}
+                    logo={object.logo}
                     startDate={object.startDate} 
                     endDate={object.endDate ? object.endDate : ''} 
                     description={object.description}

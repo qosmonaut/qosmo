@@ -28,6 +28,7 @@
             "title": "Leitender Software-Ingenieur",
             "company": "Skaaltec / Rehabilitation Engineering Lab",
             "href": "https://skaaltec.com",
+            "logo": "/logos/skaaltec.svg",
             "startDate": "06/2024",
             "endDate": "",
             "description": "Technischer Gründer in einem ETH-Spin-of welches ein System zur Neurorehabilitation von Schlaganfallpatienten entwickelt. Entwicklung und Deployment von IoT -Geräten in Partner Kliniken mit Flottenmanagement durch Balena Cloud. Konzeption und Aufbau einer Nutzerplattform und Datenpipeline. Erstellung der Datenstrategie und Sicherstellung der Einhaltung regulatorischer Vorgaben für Softwareprodukte und Patientendatensicherheit. Aufsetzen von Entwicklungsserver, internen Tools, Domains und Webhosting mit Continuous Deployment mittels Cloudflare Workers. Betreuung von Studentenprojekten und Praktikanten.",
@@ -47,6 +48,7 @@
             "title": "Mitgründer",
             "company": "LoveLabs",
             "href": "https://www.linkedin.com/company/lovelabs",
+            "logo": "/logos/lovelabs.png",
             "startDate": "12/2022",
             "endDate": "09/2023",
             "description": "Gründung von einem Verein zwecks Verbreitung von Schnelltests für sexuell übertragbare Infektionen (STI). Erhebung von Marktdaten und Erstellung von Vergleichsanalysen handelsüblicher Lateral-Flow-Tests. Entwicklung der Markteintrittsstrategie und Unterstützung im Fundraising sowie operativer Abläufe.",
@@ -64,6 +66,7 @@
             "title": "Freiberufler",
             "company": "Unternehmensberatung",
             "href": "",
+            "logo": "",
             "startDate": "09/2021",
             "endDate": "03/2022",
             "description": "Technische Beratung für die Konzeption und Entwicklung eines medizinischen Wearables. Einrichtung der ML-Trainingspipeline und Schulung der Softwareentwickler. Entwickelte einen eingebetteten ML-Algorithmus zur Echtzeitanalyse kardiovaskulärer und kinematischer Merkmale.",
@@ -81,6 +84,7 @@
             "title": "Softwareingenieur",
             "company": "Roche Diagnostics",
             "href": "https://www.roche.com/about/business/diagnostics",
+            "logo": "/logos/roche.svg",
             "startDate": "06/2019",
             "endDate": "06/2021",
             "description": "Entwickelte eine digital twin Lösung und Signalverarbeitungspipeline zur predictive maintenance vom Cobas 6800/8800 System. Entwicklung unf Vergleich der Leistung mehrerer Prototypen, einschliesslich der Entwicklung von IoT-Edge-Geräten und cloudbasierten Analyse- und Überwachungsanwendungen. Enge Zusammenarbeit mit verschiedenen Stakeholdern und Abgleich von Kunden-, Geschäfts- und Entwicklungs-Anforderungen.",
@@ -101,6 +105,7 @@
             "title": "Softwareentwickler",
             "company": "Skope Magnetic Resonance Technologies",
             "href": "https://skope.swiss/",
+            "logo": "/logos/skope.png",
             "startDate": "07/2015",
             "endDate": "05/2019",
             "description": "Unterstützte die Entwicklung einer neuartigen Magnetfeldüberwachungstechnologie für MRT-Anwendungen in einem ETH-Spin-off. Erweiterte die Echtzeit-Signalverarbeitung und Visualisierung von Feldsensordaten. Implementierte eine Steuerungs-API und ein zugehöriges SDK. Richtete einen DevOps-Prozess ein.",
@@ -118,6 +123,7 @@
             "title": "Forschungspraktikant",
             "company": "Harvard Medical School",
             "href": "https://www.martinos.org/",
+            "logo": "/logos/harvard-med.svg",
             "startDate": "04/2018",
             "endDate": "10/2018",
             "description": "Entwicklte ein Optimierungsframework zur Generierung asymmetrischer Gradientenwellenformen zur Diffusionskodierung für kardiovaskuläre DTI. Implementierunf auf einem Siemens Connectome-Scanner.",
@@ -138,6 +144,7 @@
             "degree": "MSc",
             "university": "ETH Zürich",
             "href": "https://ee.ethz.ch/de/studium/masterstudiengaenge/haupt-masterstudiengang.html",
+            "logo": "/logos/ethz.svg",
             "startDate": "09/2015",
             "endDate": "11/2018",
             "description": [
@@ -153,6 +160,7 @@
             "degree": "BSc",
             "university": "ETH Zürich",
             "href": "https://ee.ethz.ch/de/studium/bachelorstudiengang/bsc-etit.html",
+            "logo": "/logos/ethz.svg",
             "startDate": "09/2011",
             "endDate": "12/2016",
             "description":[
@@ -170,6 +178,7 @@
             "event": "",
             "organisation": "Spas Prijedor",
             "href": "https://www.facebook.com/spasprijedor/",
+            "logo": "",
             "startDate": "01/2024",
             "endDate": "",
             "description": "Vermittlung von streunenden Katzen und Hunden aus Bosnien an Familien in der Schweiz. Verteilen von Informationen zurFörderung der Adoptionen und Sammlung von Spenden für die medizinische Versorgung der Tiere."
@@ -179,6 +188,7 @@
             "event": "",
             "organisation": "Foodsharing",
             "href": "https://foodsharing.de/user/600354/profile",
+            "logo": "/logos/foodsharing.svg",
             "startDate": "04/2022",
             "endDate": "",
             "description": "Bekämpfung von Lebensmittelverschwendung und Förderung von Kreislaufwirtschaftsinitiativen. Rettung von überschüssigen Lebensmitteln aus Supermärkten, Restaurants und Bäckereien und Verteilung an die Gemeinschaft."
@@ -188,6 +198,7 @@
             "event": "",
             "organisation": "Nowhere",
             "href": "https://share.google/VGucDtObNdqWAUdZp",
+            "logo": "/logos/nowhere.png",
             "startDate": "07/2022",
             "endDate": "07/2023",
             "description": "Initiierte ein Camp mit 20 Personen am grössten regionalen Burning Man Event in Europa, welches jährlich in der Monegros-Wüste in Spanien stattfindet."
@@ -197,6 +208,7 @@
             "event": "IPhO 2016",
             "organisation": "International Physics Olympiad",
             "href": "https://science.olympiad.ch/ipho2016",
+            "logo": "",
             "startDate": "07/2016",
             "endDate": "07/2016",
             "description": "Begleitete die ~500 Teilnehmer für 10 Tage während des Wettbewerbs und organisierte Aktivitäten. Team-Guide für das Studententeam von Bosnien und Herzegowina."
@@ -206,6 +218,7 @@
             "event": "",
             "organisation": "Akademischer Maschinen- und Elektro-Ingenieur Verein",
             "href": "https://amiv.ethz.ch/en",
+            "logo": "/logos/amiv.svg",
             "startDate": "02/2013",
             "endDate": "02/2014",
             "description": "Organisierte Veranstaltungen und vertrat die Studierenden des Departements für Elektrotechnik und Informationstechnologie an der ETH Zürich."
@@ -215,6 +228,7 @@
             "event": "",
             "organisation": "Electrical Engineering Students' European Association",
             "href": "https://eestec.net/",
+            "logo": "/logos/eestec.svg",
             "startDate": "09/2011",
             "endDate": "02/2016",
             "description": "Verschiedene Rollen in der lokalen und internationalen Studentenorganisation für Elektrotechnik- und Informatikstudenten, einschliesslich der Organisation von technischen und sozialen Veranstaltungen."

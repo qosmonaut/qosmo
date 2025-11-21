@@ -6,14 +6,15 @@ const Volunteering = (props) => {
         <div data-section id='volunteering' className='mb-16'>
             <h2 className='visible mb-8 font-medium tracking-widest text-lg'>{props.data.navigation.volunteering}</h2>
             {props.data.volunteering.map(function(object, index){
-                return <VolunteeringItem  
-                    key={`${object.position}+${object.startDate}`}
+                return <VolunteeringItem
+                    key={`${object.position}+${object.startDate}`}  
                     position={object.position}
-                    event={object.event} 
+                    event={object.event}
                     organisation={object.organisation}
                     href={object.href}
-                    startDate={object.startDate}
-                    endDate={object.endDate ? object.endDate : ''}
+                    logo={object.logo}
+                    startDate={object.startDate} 
+                    endDate={object.endDate ? object.endDate : ''} 
                     description={object.description}
                 />
             })}

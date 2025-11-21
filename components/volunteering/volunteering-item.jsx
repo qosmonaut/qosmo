@@ -3,10 +3,15 @@ import React from "react";
 function VolunteeringItem(props) {
     return (
         <div className="group bg-background hover:bg-primary-100 mb-4 flex flex-row p-5 transition-all">
-            <div className='text-primary-400 mr-2 basis-1/4 text-sm font-mono'>{props.startDate} – {props.endDate}</div>
+            <div className='basis-1/4'>
+                <div className='mr-2 w-full text-sm font-mono'>{props.startDate} – {props.endDate}</div>
+                {props.logo && (
+                    <img src={props.logo} alt={props.organisation} className='m-4 w-24 object-contain' />
+                )}
+            </div>
             <div className='flex basis-3/4 flex-col'>
                 <a href={props.href} target="_blank" rel="noopener noreferrer" className='font-medium transition-all'>
-                    {props.position}{props.event && ` at ${props.event}`}
+                    {props.position}{props.event && ` | ${props.event}`}
                 </a>
                 <a href={props.href} target="_blank" rel="noopener noreferrer" className='text-primary-400 mb-4 flex flex-row items-center'>
                     <span>{props.organisation}</span>

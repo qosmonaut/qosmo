@@ -11,6 +11,7 @@ const Experiences = (props) => {
                     title={object.title}
                     company={object.company}
                     href={object.href}
+                    logo={object.logo}
                     startDate={object.startDate}
                     endDate={object.endDate}
                     description={object.description}
