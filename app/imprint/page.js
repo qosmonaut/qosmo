@@ -1,7 +1,17 @@
-import React from 'react';
+'use client';
+
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 
-export default async function Imprint() {
+export default function Imprint() {
+    const [email, setEmail] = useState('info@example.org');
+
+    useEffect(() => {
+        // Get the current domain from window.location
+        const domain = window.location.hostname;
+        setEmail(`info@${domain}`);
+    }, []);
+
     return (
         <main className="flex min-h-screen flex-col p-24 font-mono text-sm">
             <div className='flex flex-col'>
@@ -15,7 +25,7 @@ export default async function Imprint() {
             </div>
             <div className='text-primary-400'>
                 <p>Alen Roady</p>
-                <a href="mailto:info@qosmo.me">info@qosmo.me</a>
+                <a href={`mailto:${email}`} className='hover:text-highlight'>{email}</a>
             </div>
         </main>
     );
