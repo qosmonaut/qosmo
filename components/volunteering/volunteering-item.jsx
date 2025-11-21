@@ -1,12 +1,18 @@
 import React from "react";
+import { useScrollFadeIn } from '@/hooks/useScrollFadeIn';
 
 function VolunteeringItem(props) {
+    const [ref, isVisible] = useScrollFadeIn();
+    
     return (
-        <div className="group bg-background hover:bg-primary-100 mb-4 flex flex-row p-5 transition-all">
+        <div 
+            ref={ref}
+            className={`group bg-background hover:bg-primary-100 mb-4 flex flex-row p-5 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${isVisible ? 'animate-fade-in' : 'animate-fade-out'}`}
+        >
             <div className='basis-1/4'>
                 <div className='mr-2 w-full text-sm font-mono'>{props.startDate} – {props.endDate}</div>
                 {props.logo && (
-                    <img src={props.logo} alt={props.organisation} className='m-4 w-24 object-contain' />
+                    <img src={props.logo} alt={props.organisation} className='m-4 w-24 object-contain transition-all duration-300 group-hover:scale-110 group-hover:brightness-110' />
                 )}
             </div>
             <div className='flex basis-3/4 flex-col'>

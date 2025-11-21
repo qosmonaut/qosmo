@@ -1,12 +1,18 @@
 import React from "react";
+import { useScrollFadeIn } from '@/hooks/useScrollFadeIn';
 
 function ExperienceItem(props) {
+    const [ref, isVisible] = useScrollFadeIn();
+    
     return (
-        <div className="group bg-background hover:bg-primary-100 mb-4 flex flex-row p-5 transition-all">
+        <div 
+            ref={ref}
+            className={`group bg-background hover:bg-primary-100 mb-4 flex flex-row p-5 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${isVisible ? 'animate-fade-in' : 'animate-fade-out'}`}
+        >
             <div className='basis-1/4'>
                 <div className='mr-2 w-full text-sm font-mono'>{props.startDate} – {props.endDate}</div>
                 {props.logo && (
-                    <img src={props.logo} alt={props.company} className='m-4 w-24 object-contain' />
+                    <img src={props.logo} alt={props.company} className='m-4 w-24 object-contain transition-all duration-300 group-hover:scale-110 group-hover:brightness-110' />
                 )}
             </div>
             <div className='basis-3/4'>
@@ -25,7 +31,7 @@ function ExperienceItem(props) {
                 </div>  
                 <div className='flex flex-row flex-wrap gap-2'>
                     {props.skills ? props.skills.map((object, index) => {
-                        return <div key={object} className='bg-primary-300 text-primary-50 shrink-0 rounded-full px-3 py-1 text-xs whitespace-nowrap'>{object}</div>
+                        return <div key={object} className='bg-primary-300 text-primary-50 shrink-0 rounded-full px-3 py-1 text-xs whitespace-nowrap transition-all duration-200 hover:scale-105 hover:bg-primary-400'>{object}</div>
                     }) : ""}
                 </div>
             </div>

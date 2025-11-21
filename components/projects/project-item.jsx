@@ -3,10 +3,12 @@
 import { useState } from 'react';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
+import { useScrollFadeIn } from '@/hooks/useScrollFadeIn';
 
 function ProjectItem(props) {
     const [isOpen, setIsOpen] = useState(false);
     const [isExpanded, setIsExpanded] = useState(false);
+    const [ref, isVisible] = useScrollFadeIn();
     const isArray = Array.isArray(props.href);
     
     // Check if array contains images (common image extensions)
@@ -38,7 +40,11 @@ function ProjectItem(props) {
     
     return (
         <>
-            <Tag {...linkProps} className="group bg-primary-100 flex flex-col p-5 brightness-75 transition-all hover:z-10 hover:scale-102 hover:brightness-100">
+            <Tag 
+                ref={ref}
+                {...linkProps} 
+                className={`group bg-primary-100 flex flex-col p-5 brightness-75 transition-all hover:z-10 hover:scale-102 hover:brightness-100 ${isVisible ? 'animate-fade-in' : 'animate-fade-out'}`}
+            >
                 <div className='text-primary-400 mb-4 flex flex-row items-center justify-between'>
                     <div className='flex flex-row items-center'>
                         <span className='ml-1 text-xs font-medium tracking-widest uppercase'>{props.lib}</span>
