@@ -258,6 +258,12 @@
             "href": "https://github.com/qosmonaut/qosmo"
         },
         {
+        "name": "retroviz",
+        "framework": "javascript",
+        "description": "Old school Winamp Musik Visualisierungen als Webapp mit Mikrofon- oder Datei-Input",
+        "href": "https://retroviz.app"
+        },
+        {
             "name": "data-canvas-live",
             "framework": "React",
             "description": "Eine Live-Demo einer Data-Canvas-Anwendung, erstellt mit Lovable",
@@ -268,12 +274,6 @@
             "framework": "html / css",
             "description": "Statische Website zur Vermittlung von zwei Hunden aus Bosnien. Vollständig auf dem Handy mit Copilot entwickelt",
             "href": "https://github.com/qosmonaut/hiro-simba"
-        },
-        {
-        "name": "retroviz",
-        "framework": "javascript",
-        "description": "Old school Winamp Musik Visualisierungen als Webapp mit Mikrofon- oder Datei-Input",
-        "href": "https://retroviz.app"
         },
         {
         "name": "Anhängersauna",
