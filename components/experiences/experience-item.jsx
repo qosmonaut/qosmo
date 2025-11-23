@@ -12,9 +12,13 @@ function ExperienceItem(props) {
             <div className='basis-1/4 flex flex-col items-center text-center'>
                 <div className='mb-2 w-full text-sm font-mono'>{props.startDate} – {checkEndDate(props)}</div>
                 {props.logo && (
-                    <a href={props.href} target="_blank" rel="noopener noreferrer">
+                    props.href ? (
+                        <a href={props.href} target="_blank" rel="noopener noreferrer">
+                            <img src={props.logo} alt={props.company} className='m-2 w-25 object-contain transition-all duration-300 group-hover:scale-110 group-hover:brightness-110' />
+                        </a>
+                    ) : (
                         <img src={props.logo} alt={props.company} className='m-2 w-25 object-contain transition-all duration-300 group-hover:scale-110 group-hover:brightness-110' />
-                    </a>
+                    )
                 )}
             </div>
             <div className='basis-3/4'>
