@@ -7,12 +7,12 @@ function VolunteeringItem(props) {
     return (
         <div 
             ref={ref}
-            className={`group bg-background hover:bg-primary-100 mb-4 flex flex-row p-5 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${isVisible ? 'animate-fade-in' : 'animate-fade-out'}`}
+            className={`group bg-background hover:bg-primary-100 mb-4 sm:flex sm:flex-row p-5 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${isVisible ? 'animate-fade-in' : 'animate-fade-out'}`}
         >
-            <div className='basis-1/4'>
-                <div className='mr-2 w-full text-sm font-mono'>{props.startDate} – {checkEndDate(props)}</div>
+            <div className='basis-1/4 flex flex-col items-center text-center'>
+                <div className='mb-2 w-full text-sm font-mono'>{props.startDate} – {checkEndDate(props)}</div>
                 {props.logo && (
-                    <img src={props.logo} alt={props.organisation} className='m-4 w-24 object-contain transition-all duration-300 group-hover:scale-110 group-hover:brightness-110' />
+                    <img src={props.logo} alt={props.organisation} className='m-2 w-25 object-contain transition-all duration-300 group-hover:scale-110 group-hover:brightness-110' />
                 )}
             </div>
             <div className='flex basis-3/4 flex-col'>
