@@ -113,7 +113,7 @@
                 "LabVIEW",
                 "C#",
                 "MatLab",
-                "Jekyll",
+                "jenkins",
                 "SDK development",
                 "Real-time signal processing",
                 "MR Methodologies"
@@ -270,10 +270,10 @@
             "href": "https://github.com/qosmonaut/hiro-simba"
         },
         {
-        "name": "media-player-viz",
-        "framework": "javascript",
-        "description": "Old school Windows Media Player visualizations as a webapp. Built entirely on mobile with Copilot",
-        "href": "https://github.com/qosmonaut/media-player-viz"
+        "name": "retroviz",
+            "framework": "javascript",
+            "description": "Old school Winamp music visualizations as a webapp with microphone or file input",
+            "href": "https://retroviz.app"
         },
         {
         "name": "Trailer sauna",
