@@ -4,6 +4,10 @@ import { useScrollFadeIn } from '@/hooks/useScrollFadeIn';
 function EducationItem(props) {
     const [ref, isVisible] = useScrollFadeIn();
     
+    const logoImage = props.logo && (
+        <img src={props.logo} alt={props.university} className='m-2 w-25 object-contain transition-all duration-300 group-hover:scale-110 group-hover:brightness-110' />
+    );
+    
     return (
         <div 
             ref={ref}
@@ -11,8 +15,12 @@ function EducationItem(props) {
         >
             <div className='basis-1/4 flex flex-col items-center text-center'>
                 <div className='mb-2 w-full text-sm font-mono'>{props.startDate} – {checkEndDate(props)}</div>
-                {props.logo && (
-                    <img src={props.logo} alt={props.university} className='m-2 w-25 object-contain transition-all duration-300 group-hover:scale-110 group-hover:brightness-110' />
+                {logoImage && (
+                    props.href ? (
+                        <a href={props.href} target="_blank" rel="noopener noreferrer">
+                            {logoImage}
+                        </a>
+                    ) : logoImage
                 )}
             </div>
             <div className='basis-3/4'>
