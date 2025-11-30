@@ -246,19 +246,13 @@
             ]
         },
         {
-            "name": "skaaltec.com",
-            "framework": "astro / decap",
-            "description": "Designed, built and managed the corporate site for Skaaltec with an integrated CMS for News posts and top performance/SEO marks",
-            "href": "https://www.skaaltec.com"
-        },
-        {
             "name": "portfolio-template",
             "framework": "next.js",
             "description": "A simple mobile-friendly portfolio template that is easy to use and quick to customize for your own purposes",
             "href": "https://github.com/qosmonaut/qosmo"
         },
         {
-        "name": "retroviz",
+        "name": "retroviz.app",
             "framework": "javascript",
             "description": "Old school Winamp music visualizations as a webapp with microphone or file input",
             "href": "https://retroviz.app"
@@ -266,14 +260,20 @@
         {
             "name": "data-canvas-live",
             "framework": "React",
-            "description": "A live demo of a data canvas application built with Lovable",
+            "description": "A live demo of a data canvas application for data exploration built with Lovable",
             "href": "https://github.com/qosmonaut/data-canvas-live"
         },
         {
-            "name": "hiro-simba",
+            "name": "skaaltec.com",
+            "framework": "astro / decap",
+            "description": "Designed, built and managed the corporate site for Skaaltec with an integrated CMS for News posts and top performance/SEO marks",
+            "href": "https://www.skaaltec.com"
+        },
+        {
+            "name": "hiro-simba.ch",
             "framework": "html / css",
             "description": "Static website to find new homes for two dogs from Bosnia. Built entirely on mobile with Copilot",
-            "href": "https://github.com/qosmonaut/hiro-simba"
+            "href": "https://hiro-simba.ch"
         },
         {
         "name": "Trailer sauna",

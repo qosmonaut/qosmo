@@ -246,19 +246,13 @@
             ]
         },
         {
-            "name": "skaaltec.com",
-            "framework": "astro / decap",
-            "description": "Design, Entwicklung und Verwaltung der Website mit integrierten CMS für Nachrichtenbeiträge",
-            "href": "https://www.skaaltec.com"
-        },
-        {
             "name": "portfolio-template",
             "framework": "next.js",
             "description": "Eine einfache mobile-freundliche Portfolio-Vorlage, die einfach zu verwenden und schnell für eigene Zwecke anzupassen ist",
             "href": "https://github.com/qosmonaut/qosmo"
         },
         {
-        "name": "retroviz",
+        "name": "retroviz.app",
         "framework": "javascript",
         "description": "Old school Winamp Musik Visualisierungen als Webapp mit Mikrofon- oder Datei-Input",
         "href": "https://retroviz.app"
@@ -266,14 +260,20 @@
         {
             "name": "data-canvas-live",
             "framework": "React",
-            "description": "Eine Live-Demo einer Data-Canvas-Anwendung, erstellt mit Lovable",
+            "description": "Eine Live-Demo einer Data-Canvas-Anwendung zur Visualisierung von Datensätzen, erstellt mit Lovable",
             "href": "https://github.com/qosmonaut/data-canvas-live"
         },
         {
-            "name": "hiro-simba",
+            "name": "skaaltec.com",
+            "framework": "astro / decap",
+            "description": "Design, Entwicklung und Verwaltung der Website mit integrierten CMS für Nachrichtenbeiträge",
+            "href": "https://www.skaaltec.com"
+        },
+        {
+            "name": "hiro-simba.ch",
             "framework": "html / css",
             "description": "Statische Website zur Vermittlung von zwei Hunden aus Bosnien. Vollständig auf dem Handy mit Copilot entwickelt",
-            "href": "https://github.com/qosmonaut/hiro-simba"
+            "href": "https://hiro-simba.ch"
         },
         {
         "name": "Anhängersauna",
