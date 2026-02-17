@@ -10,7 +10,7 @@
         ],
         "socials": {
             "email": "alenroady@gmail.com",
-            "cv": "/cv/de.pdf",
+            "cv": "/cv/roady-de.pdf",
             "linkedin": "https://www.linkedin.com/in/alenroady",
             "github": "https://github.com/qosmonaut"
         }
@@ -30,7 +30,7 @@
             "href": "https://skaaltec.com",
             "logo": "/logos/skaaltec.svg",
             "startDate": "06/2024",
-            "endDate": "",
+            "endDate": "01/2026",
             "description": "Technischer Gründer in einem ETH-Spin-of welches ein System zur Neurorehabilitation von Schlaganfallpatienten entwickelt. Entwicklung und Deployment von IoT -Geräten in Partner Kliniken mit Flottenmanagement durch Balena Cloud. Konzeption und Aufbau einer Nutzerplattform und Datenpipeline. Erstellung der Datenstrategie und Sicherstellung der Einhaltung regulatorischer Vorgaben für Softwareprodukte und Patientendatensicherheit. Aufsetzen von Entwicklungsserver, internen Tools, Domains und Webhosting mit Continuous Deployment mittels Cloudflare Workers. Betreuung von Studentenprojekten und Praktikanten.",
             "skills": [
                 "Django",

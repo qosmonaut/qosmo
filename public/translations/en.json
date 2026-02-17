@@ -10,7 +10,7 @@
         ],
         "socials": {
             "email": "alenroady@gmail.com",
-            "cv": "/cv/en.pdf",
+            "cv": "/cv/roady-en.pdf",
             "linkedin": "https://www.linkedin.com/in/alenroady",
             "github": "https://github.com/qosmonaut"
         }
@@ -30,7 +30,7 @@
             "href": "https://skaaltec.com",
             "logo": "/logos/skaaltec.svg",
             "startDate": "06/2024",
-            "endDate": "",
+            "endDate": "01/2026",
             "description": "Founding engineer in an early-stage ETH spin-off developing a neurorehabilitation system for stroke patients. Built and deployed IoT devices to partner clinics with Balena Cloud fleet management. Designed and built a user platform and data pipeline. Created a data strategy and ensured regulatory compliance of software products and patient data security. Set up development server, internal tooling, domains and web hosting with continuous deployment using Cloudflare Workers. Supervision of student projects and interns.",
             "skills": [
                 "Django",
