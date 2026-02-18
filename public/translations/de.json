@@ -12,7 +12,11 @@
             "email": "alen@roady.ch",
             "cv": "/cv/roady-de.pdf",
             "linkedin": "https://www.linkedin.com/in/alenroady",
-            "github": "https://github.com/qosmonaut"
+            "github": "https://github.com/qosmonaut",
+            "booking": {
+                "text": "Gesprächstermin buchen",
+                "link": "https://calendar.app.google/VnZNC2TsecQaDodJ7"
+            }
         }
     },
     "navigation": {
