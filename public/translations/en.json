@@ -71,6 +71,7 @@
             "endDate": "03/2022",
             "description": "Provided technical consulting for the design and development of a medical wearable. Set up an ML training pipeline and provided training to staff software engineers. Created initial prototype implementation of an embedded ML algorithm for real-time analysis of cardiovascular and kinematic features.",
             "skills": [
+                "C++",
                 "TinyML",
                 "PyTorch",
                 "InfluxDB",
@@ -202,6 +203,16 @@
             "startDate": "07/2022",
             "endDate": "07/2023",
             "description": "Initiated and co-created a camp of 20 people at the largest regional Burning Man event in Europe held annually in the Monegros desert in Spain."
+        },
+        {
+            "position": "Tutor and Mentor",
+            "event": "",
+            "organisation": "Independent",
+            "href": "",
+            "logo": "",
+            "startDate": "11/2021",
+            "endDate": "04/2023",
+            "description": "Tutoring in mathematics/physics for entrance exams to high schools and ETH Zurich. Mentoring students in project development and career planning."
         },
         {
             "position": "Guide",

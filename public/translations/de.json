@@ -5,7 +5,7 @@
         "image": "/profile.png",
         "alt": "Profilbild",
         "about": [
-            "Willkommen auf meiner Homepage! Ich bin Ingenieur mit über 7 Jahren Erfahrung im Medtech-Bereich, von Start-ups bis Grosskonzernen. ",
+            "Willkommen auf meiner Homepage! Ich bin Ingenieur mit 8 Jahren Erfahrung im Medtech-Bereich, von Start-ups bis Grosskonzernen. ",
             "Ich entwickle, implementiere und verwalte robuste Software- und Datenplattformen, die auf die Geschäftsanforderungen abgestimmt sind. Mein Ziel ist es, meine Systemtechnik-Kompetenzen einzusetzen, um datenbasierte Lösungen für Patienten und medizinisches Fachpersonal zu entwickeln."
         ],
         "socials": {
@@ -25,13 +25,13 @@
     },
     "experiences": [
         {
-            "title": "Leitender Software-Ingenieur",
+            "title": "Leitender Softwareingenieur",
             "company": "Skaaltec / Rehabilitation Engineering Lab",
             "href": "https://skaaltec.com",
             "logo": "/logos/skaaltec.svg",
             "startDate": "06/2024",
             "endDate": "01/2026",
-            "description": "Technischer Gründer in einem ETH-Spin-of welches ein System zur Neurorehabilitation von Schlaganfallpatienten entwickelt. Entwicklung und Deployment von IoT -Geräten in Partner Kliniken mit Flottenmanagement durch Balena Cloud. Konzeption und Aufbau einer Nutzerplattform und Datenpipeline. Erstellung der Datenstrategie und Sicherstellung der Einhaltung regulatorischer Vorgaben für Softwareprodukte und Patientendatensicherheit. Aufsetzen von Entwicklungsserver, internen Tools, Domains und Webhosting mit Continuous Deployment mittels Cloudflare Workers. Betreuung von Studentenprojekten und Praktikanten.",
+            "description": "Technischer Gründer in einem ETH-Spin-off, welches ein System zur Neurorehabilitation von Schlaganfallpatienten entwickelt. Entwicklung und Deployment von IoT -Geräten in Partnerkliniken mit Flottenmanagement durch Balena Cloud. Konzeption und Aufbau einer Benutzerplattform und Datenpipeline. Erstellung der Datenstrategie und Sicherstellung der Einhaltung regulatorischer Vorgaben für Softwareprodukte und Datensicherheit. Aufsetzen von Testumgebungen, internen Tools, Domains und Webhosting mit Continuous Deployment mittels Cloudflare Workers. Betreuung von Studentenprojekten und Praktikanten.",
             "skills": [
                 "Django",
                 "Docker",
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "title": "Mitgründer",
+            "title": "Gründer",
             "company": "LoveLabs",
             "href": "https://www.linkedin.com/company/lovelabs",
             "logo": "/logos/lovelabs.png",
@@ -63,14 +63,15 @@
             ]
         },
         {
-            "title": "Freiberufler",
-            "company": "Unternehmensberatung",
+            "title": "Medtech Berater",
+            "company": "Freiberuflich",
             "href": "",
             "logo": "",
             "startDate": "09/2021",
             "endDate": "03/2022",
-            "description": "Technische Beratung für die Konzeption und Entwicklung eines medizinischen Wearables. Einrichtung der ML-Trainingspipeline und Schulung der Softwareentwickler. Entwickelte einen eingebetteten ML-Algorithmus zur Echtzeitanalyse kardiovaskulärer und kinematischer Merkmale.",
+            "description": "Technische Beratung für die Konzeption und Entwicklung eines medizinischen Wearables. Einrichtung der ML-Trainings Pipeline und Schulung der Softwareentwickler. Entwicklung von einem eingebetteten ML-Algorithmus zur Echtzeitanalyse kardiovaskulärer und kinematischer Merkmale.",
             "skills": [
+                "C++",
                 "TinyML",
                 "PyTorch",
                 "InfluxDB",
@@ -87,7 +88,7 @@
             "logo": "/logos/roche.svg",
             "startDate": "06/2019",
             "endDate": "06/2021",
-            "description": "Entwickelte eine digital twin Lösung und Signalverarbeitungspipeline zur predictive maintenance vom Cobas 6800/8800 System. Entwicklung unf Vergleich der Leistung mehrerer Prototypen, einschliesslich der Entwicklung von IoT-Edge-Geräten und cloudbasierten Analyse- und Überwachungsanwendungen. Enge Zusammenarbeit mit verschiedenen Stakeholdern und Abgleich von Kunden-, Geschäfts- und Entwicklungs-Anforderungen.",
+            "description": "Entwicklung einer Digital Twin Lösung und Signalverarbeitung Pipeline zur Predictive Maintenance vom Cobas 6800/8800 System. Entwicklung und Vergleich der Leistung mehrerer Prototypen, einschliesslich der Entwicklung von IoT-Edge-Geräten und cloud-basierten Analyse- und Überwachungs-Anwendungen. Enge Zusammenarbeit mit Stakeholdern und Abgleich von Kunden-, Geschäfts- und Entwicklungsanforderungen.",
             "skills": [
                 "GCP",
                 "IoT",
@@ -108,7 +109,7 @@
             "logo": "/logos/skope.png",
             "startDate": "07/2015",
             "endDate": "05/2019",
-            "description": "Unterstützte die Entwicklung einer neuartigen Magnetfeldüberwachungstechnologie für MRT-Anwendungen in einem ETH-Spin-off. Erweiterte die Echtzeit-Signalverarbeitung und Visualisierung von Feldsensordaten. Implementierte eine Steuerungs-API und ein zugehöriges SDK. Richtete einen DevOps-Prozess ein.",
+            "description": "Unterstützte die Entwicklung einer neuartigen Magnetfeld-Überwachungstechnologie für MRT-Anwendungen in einem ETH-Spin-off. Erweiterung der Echtzeit-Signalverarbeitung und Visualisierung von Feldsensordaten. Implementierung der Steuerungs-API und des zugehörigen SDK, sowie DevOps-Prozesse.",
             "skills": [
                 "LabVIEW",
                 "C#",
@@ -126,7 +127,7 @@
             "logo": "/logos/harvard-med.svg",
             "startDate": "04/2018",
             "endDate": "10/2018",
-            "description": "Entwicklte ein Optimierungsframework zur Generierung asymmetrischer Gradientenwellenformen zur Diffusionskodierung für kardiovaskuläre DTI. Implementierunf auf einem Siemens Connectome-Scanner.",
+            "description": "Entwicklung von einem Optimierungs-Framework zur Generierung asymmetrischer Gradienten-Wellenformen zur Diffusions-Kodierung für kardiovaskuläre DTI. Implementierung auf einem Siemens Connectome-Scanner.",
             "skills": [
                 "Python",
                 "CPLEX",
@@ -202,6 +203,16 @@
             "startDate": "07/2022",
             "endDate": "07/2023",
             "description": "Initiierte ein Camp mit 20 Personen am grössten regionalen Burning Man Event in Europa, welches jährlich in der Monegros-Wüste in Spanien stattfindet."
+        },
+        {
+            "position": "Nachhilfelehrer und Mentor",
+            "event": "",
+            "organisation": "Selbstständig",
+            "href": "",
+            "logo": "",
+            "startDate": "11/2021",
+            "endDate": "04/2023",
+            "description": "Nachhilfe in Mathematik/Physik für die Aufnahmeprüfungen an Gymnasien und der ETH Zürich. Mentoring von Studenten bei der Entwicklung von Projekten und der Karriereplanung."
         },
         {
             "position": "Guide",
