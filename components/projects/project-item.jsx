@@ -63,7 +63,7 @@ function ProjectItem(props) {
                                     href={link}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="hover:text-highlight transition-colors"
+                                    className="hover:text-primary-300 transition-colors"
                                     onClick={(e) => e.stopPropagation()}
                                 >
                                     [{index + 1}]
