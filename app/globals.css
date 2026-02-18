@@ -3,10 +3,6 @@
 /* Tailwind v4 theme tokens */
 @theme {
   /*  *************************    Adapt the color palette    *************************
-  *   You can change the color palette here by uncommenting one of the selections below
-  *   and commenting out the previously selected palette. You can create your own color
-  *   palette using https://saasykit.com/tools/tailwindcss-color-scheme-generator.
-  */
 
   /* :: Color Palette: Arctic Ice */
   --color-primary-50:  #f1f3f3;
