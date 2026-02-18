@@ -12,8 +12,8 @@ const mono = Noto_Sans_Mono({
 });
 
 export const metadata = {
-  title: 'Alen Roady | Qosmo',
-  description: 'Portfolio Website of Alen Roady',
+  title: 'Alen Roady',
+  description: 'Portfolio Website',
 }
 
 export default function RootLayout({ children }) {

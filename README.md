@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  Qosmo Portfolio Website
+  Portfolio Website
   <br>
 </h1>
 
