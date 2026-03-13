@@ -35,17 +35,19 @@
             "logo": "/logos/skaaltec.svg",
             "startDate": "06/2024",
             "endDate": "01/2026",
-            "description": "Founding engineer in an early-stage ETH spin-off developing a neurorehabilitation system for stroke patients. Built and deployed IoT devices to partner clinics with Balena Cloud fleet management. Designed and built a user platform and data pipeline. Created a data strategy and ensured regulatory compliance of software products and patient data security. Set up development server, internal tooling, domains and web hosting with continuous deployment using Cloudflare Workers. Supervision of student projects and interns.",
+            "description": "Founding engineer in an early-stage ETH spin-off developing a wearable neurorehabilitation system for stroke patients. Built and deployed IoT edge devices to partner clinics with Balena Cloud fleet management. Designed and built a user platform and data pipeline. Created a data strategy and ensured regulatory compliance of software products and patient data security. Set up development server, internal tooling, domains and web hosting with continuous deployment using Cloudflare Workers. Supervision of student projects and interns.",
             "skills": [
-                "Django",
-                "Docker",
-                "React",
+                "C++",
                 "Python",
+                "Docker",
                 "Rust",
+                "paho-mqtt",
+                "Balena",
+                "Django",
+                "React",
                 "PostgreSQL",
-                "Balena Cloud",
                 "SW Architecture",
-                "Regulatory"
+                "Embedded"
             ]
         },
         {
@@ -76,13 +78,14 @@
             "description": "Provided technical consulting for the design and development of a medical wearable. Set up an ML training pipeline and provided training to staff software engineers. Created initial prototype implementation of an embedded ML algorithm for real-time analysis of cardiovascular and kinematic features.",
             "skills": [
                 "C++",
+                "Python",
+                "Docker",
                 "TinyML",
                 "PyTorch",
-                "InfluxDB",
-                "Kubernetes",
                 "MLOps",
-                "Technical Training",
-                "Customer Relations"
+                "PostgreSQL",
+                "Embedded",
+                "Technical Training"
             ]
         },
         {
@@ -94,16 +97,15 @@
             "endDate": "06/2021",
             "description": "Designed a digital twin solution and signal processing pipeline for predictive maintenance for the Cobas 6800/8800 PCR system. Developed and compared performance of multiple end-to-end prototypes, including development of IoT edge devices and cloud-based analysis and monitoring applications. Engaged stakeholders and mediated client, business and engineering requirements for product development.",
             "skills": [
-                "GCP",
-                "IoT",
-                "Grafana",
-                "Docker",
-                "Kubernetes",
-                "Tensorflow",
                 "C++",
-                "NoSQL",
+                "Python",
+                "GCP",
+                "Docker",
+                "RabbitMQ",
                 "GitLab CI/CD",
-                "Agile"
+                "Grafana",
+                "Tensorflow",
+                "Scrum"
             ]
         },
         {
@@ -116,11 +118,12 @@
             "description": "Supported initial development of novel magnetic field monitoring technology for MRI applications in an ETH spin-off. Expanded real-time signal processing pipeline and visualization of field sensor data. Implemented control API and accompanying SDK for user application development. Set up DevOps process for acquisition application.",
             "skills": [
                 "LabVIEW",
-                "C#",
                 "MatLab",
-                "jenkins",
-                "SDK development",
-                "Real-time signal processing",
+                "C++",
+                "C#.NET",
+                "Jenkins",
+                "SDK Development",
+                "RT Signal Processing",
                 "MR Methodologies"
             ]
         },
@@ -134,8 +137,8 @@
             "description": "Developed an optimization framework to generate asymmetric diffusion encoding gradient waveforms for high-resolution cardiovascular DTI. Implemented a proof-of-concept on a Siemens Connectome scanner.",
             "skills": [
                 "Python",
-                "CPLEX",
                 "MatLab",
+                "CPLEX",
                 "Convex Optimization",
                 "MR Physics",
                 "Diffusion Tensor Imaging",

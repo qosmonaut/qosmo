@@ -37,15 +37,17 @@
             "endDate": "01/2026",
             "description": "Technischer Gründer in einem ETH-Spin-off, welches ein System zur Neurorehabilitation von Schlaganfallpatienten entwickelt. Entwicklung und Deployment von IoT -Geräten in Partnerkliniken mit Flottenmanagement durch Balena Cloud. Konzeption und Aufbau einer Benutzerplattform und Datenpipeline. Erstellung der Datenstrategie und Sicherstellung der Einhaltung regulatorischer Vorgaben für Softwareprodukte und Datensicherheit. Aufsetzen von Testumgebungen, internen Tools, Domains und Webhosting mit Continuous Deployment mittels Cloudflare Workers. Betreuung von Studentenprojekten und Praktikanten.",
             "skills": [
-                "Django",
-                "Docker",
-                "React",
+                "C++",
                 "Python",
+                "Docker",
                 "Rust",
+                "paho-mqtt",
+                "Balena",
+                "Django",
+                "React",
                 "PostgreSQL",
-                "Balena Cloud",
                 "SW-Architektur",
-                "Regulatory"
+                "Eingebettete Systeme"
             ]
         },
         {
@@ -59,11 +61,11 @@
            "skills": [
                 "Astro",
                 "Branding",
-                "Regulatory",
-                "Business Development",
-                "Partnerships",
+                "Regulatorien",
+                "Geschäftsentwicklung",
+                "Partnerschaften",
                 "Fundraising",
-                "Operations"
+                "Betrieb"
             ]
         },
         {
@@ -76,13 +78,14 @@
             "description": "Technische Beratung für die Konzeption und Entwicklung eines medizinischen Wearables. Einrichtung der ML-Trainings Pipeline und Schulung der Softwareentwickler. Entwicklung von einem eingebetteten ML-Algorithmus zur Echtzeitanalyse kardiovaskulärer und kinematischer Merkmale.",
             "skills": [
                 "C++",
+                "Python",
+                "Docker",
                 "TinyML",
                 "PyTorch",
-                "InfluxDB",
-                "Kubernetes",
                 "MLOps",
-                "Technical Training",
-                "Kundenbeziehungen"
+                "PostgreSQL",
+                "Eingebettete Systeme",
+                "Technisches Training"
             ]
         },
         {
@@ -94,16 +97,15 @@
             "endDate": "06/2021",
             "description": "Entwicklung einer Digital Twin Lösung und Signalverarbeitung Pipeline zur Predictive Maintenance vom Cobas 6800/8800 System. Entwicklung und Vergleich der Leistung mehrerer Prototypen, einschliesslich der Entwicklung von IoT-Edge-Geräten und cloud-basierten Analyse- und Überwachungs-Anwendungen. Enge Zusammenarbeit mit Stakeholdern und Abgleich von Kunden-, Geschäfts- und Entwicklungsanforderungen.",
             "skills": [
-                "GCP",
-                "IoT",
-                "Grafana",
-                "Docker",
-                "Kubernetes",
-                "Tensorflow",
                 "C++",
-                "NoSQL",
+                "Python",
+                "GCP",
+                "Docker",
+                "RabbitMQ",
                 "GitLab CI/CD",
-                "Agile"
+                "Grafana",
+                "Tensorflow",
+                "Scrum"
             ]
         },
         {
@@ -116,9 +118,10 @@
             "description": "Unterstützte die Entwicklung einer neuartigen Magnetfeld-Überwachungstechnologie für MRT-Anwendungen in einem ETH-Spin-off. Erweiterung der Echtzeit-Signalverarbeitung und Visualisierung von Feldsensordaten. Implementierung der Steuerungs-API und des zugehörigen SDK, sowie DevOps-Prozesse.",
             "skills": [
                 "LabVIEW",
-                "C#",
                 "MatLab",
-                "jenkins",
+                "C++",
+                "C#.NET",
+                "Jenkins",
                 "SDK-Entwicklung",
                 "Echtzeit-Signalverarbeitung",
                 "MR-Methodik"
@@ -134,8 +137,8 @@
             "description": "Entwicklung von einem Optimierungs-Framework zur Generierung asymmetrischer Gradienten-Wellenformen zur Diffusions-Kodierung für kardiovaskuläre DTI. Implementierung auf einem Siemens Connectome-Scanner.",
             "skills": [
                 "Python",
-                "CPLEX",
                 "MatLab",
+                "CPLEX",
                 "Konvexe Optimierung",
                 "MR-Physik",
                 "Diffusions-Tensor-Bildgebung",
