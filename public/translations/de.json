@@ -41,7 +41,7 @@
                 "Python",
                 "Docker",
                 "Rust",
-                "paho-mqtt",
+                "Qt",
                 "Balena",
                 "Django",
                 "React",
@@ -122,6 +122,7 @@
                 "C++",
                 "C#.NET",
                 "Jenkins",
+                "TCP/IP",
                 "SDK-Entwicklung",
                 "Echtzeit-Signalverarbeitung",
                 "MR-Methodik"
