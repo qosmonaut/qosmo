@@ -24,6 +24,16 @@ export default function Home() {
       .catch(err => console.error('Error loading translations:', err));
   }, [currentLang]);
 
+  useEffect(() => {
+    if (data && window.location.hash) {
+      const id = window.location.hash.slice(1);
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [data]);
+
   if (!data) {
     return (
       <main className="font-body flex min-h-screen flex-col items-center justify-center">
