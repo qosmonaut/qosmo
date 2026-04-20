@@ -44,10 +44,10 @@
                 "Qt",
                 "Balena",
                 "Django",
-                "React",
                 "PostgreSQL",
-                "SW-Architektur",
-                "Eingebettete Systeme"
+                "React",
+                "Eingebettete Systeme",
+                "SW Architektur"
             ]
         },
         {
@@ -60,12 +60,12 @@
             "description": "Gründung von einem Verein zwecks Verbreitung von Schnelltests für sexuell übertragbare Infektionen (STI). Erhebung von Marktdaten und Erstellung von Vergleichsanalysen handelsüblicher Lateral-Flow-Tests. Entwicklung der Markteintrittsstrategie und Unterstützung im Fundraising sowie operativer Abläufe.",
            "skills": [
                 "Astro",
-                "Branding",
-                "Regulatorien",
-                "Geschäftsentwicklung",
-                "Partnerschaften",
+                "Unternehmenswachstum",
+                "Operations",
+                "Regulatory",
                 "Fundraising",
-                "Betrieb"
+                "Partnerschaften",
+                "Webentwicklung"
             ]
         },
         {
@@ -79,13 +79,13 @@
             "skills": [
                 "C++",
                 "Python",
-                "Docker",
                 "TinyML",
                 "PyTorch",
-                "MLOps",
-                "PostgreSQL",
+                "Docker",
+                "GCP",
                 "Eingebettete Systeme",
-                "Technisches Training"
+                "Technisches Training",
+                "Scrum"
             ]
         },
         {
@@ -101,10 +101,11 @@
                 "Python",
                 "GCP",
                 "Docker",
+                "Tensorflow",
                 "RabbitMQ",
                 "GitLab CI/CD",
                 "Grafana",
-                "Tensorflow",
+                "Predictive Analytics",
                 "Scrum"
             ]
         },
@@ -120,12 +121,11 @@
                 "LabVIEW",
                 "MatLab",
                 "C++",
-                "C#.NET",
+                "C#",
                 "Jenkins",
-                "TCP/IP",
-                "SDK-Entwicklung",
                 "Echtzeit-Signalverarbeitung",
-                "MR-Methodik"
+                "Datenvisualisierung",
+                "Support"
             ]
         },
         {
@@ -141,9 +141,9 @@
                 "MatLab",
                 "CPLEX",
                 "Konvexe Optimierung",
-                "MR-Physik",
-                "Diffusions-Tensor-Bildgebung",
-                "Wissenschaftliches Schreiben"
+                "Pulssequenzprogrammierung",
+                "DTI",
+                "In Vivo Bildgebung"
             ]
         }
     ],
@@ -213,24 +213,34 @@
             "description": "Initiierte ein Camp mit 20 Personen am grössten regionalen Burning Man Event in Europa, welches jährlich in der Monegros-Wüste in Spanien stattfindet."
         },
         {
-            "position": "Nachhilfelehrer und Mentor",
-            "event": "",
-            "organisation": "Selbstständig",
-            "href": "",
-            "logo": "",
-            "startDate": "11/2021",
-            "endDate": "04/2023",
-            "description": "Nachhilfe in Mathematik/Physik für die Aufnahmeprüfungen an Gymnasien und der ETH Zürich. Mentoring von Studenten bei der Entwicklung von Projekten und der Karriereplanung."
+            "position": "Guide",
+            "event": "EGMO 2017",
+            "organisation": "European Girls' Math Olympiad",
+            "href": "https://www.egmo.org/egmos/egmo6/",
+            "logo": "/logos/egmo.png",
+            "startDate": "07/2017",
+            "endDate": "07/2017",
+            "description": "Zuständig als Guide für die nationalen Teamleiter während der 7 Tage der Veranstaltung. Koordinierte Logistik und organisierte Aktivitäten."
         },
         {
             "position": "Guide",
             "event": "IPhO 2016",
             "organisation": "International Physics Olympiad",
             "href": "https://science.olympiad.ch/ipho2016",
-            "logo": "",
+            "logo": "/logos/ipho.png",
             "startDate": "07/2016",
             "endDate": "07/2016",
             "description": "Begleitete die ~500 Teilnehmer für 10 Tage während des Wettbewerbs und organisierte Aktivitäten. Team-Guide für das Studententeam von Bosnien und Herzegowina."
+        },
+        {
+            "position": "Nachhilfelehrer und Mentor",
+            "event": "",
+            "organisation": "Selbstständig",
+            "href": "",
+            "logo": "",
+            "startDate": "11/2014",
+            "endDate": "04/2023",
+            "description": "Nachhilfe in Mathematik/Physik für die Aufnahmeprüfungen an Gymnasien und der ETH Zürich. Mentoring von Studenten bei der Entwicklung von Projekten und der Karriereplanung."
         },
         {
             "position": "Vorstandsmitglied",

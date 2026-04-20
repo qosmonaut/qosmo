@@ -43,11 +43,11 @@
                 "Rust",
                 "Qt",
                 "Balena",
+                "PostgreSQL",
                 "Django",
                 "React",
-                "PostgreSQL",
-                "SW Architecture",
-                "Embedded"
+                "Embedded",
+                "SW Architecture"
             ]
         },
         {
@@ -60,12 +60,12 @@
             "description": "Co-founded an association to promote expanded access to self-administered rapid diagnostic tests for STIs. Collected market data and performed comparative analysis of commercially available lateral flow devices. Developed go-to-market strategy and analyzed product-market fit. Supported fundraising, branding and operations.",
            "skills": [
                 "Astro",
-                "Branding",
+                "Business Growth",
+                "Operations",
                 "Regulatory",
-                "Business Development",
-                "Partnerships",
                 "Fundraising",
-                "Operations"
+                "Partnerships",
+                "Web Development"
             ]
         },
         {
@@ -79,13 +79,13 @@
             "skills": [
                 "C++",
                 "Python",
-                "Docker",
                 "TinyML",
                 "PyTorch",
-                "MLOps",
-                "PostgreSQL",
+                "Docker",
+                "GCP",
                 "Embedded",
-                "Technical Training"
+                "Technical Training",
+                "Scrum"
             ]
         },
         {
@@ -101,10 +101,10 @@
                 "Python",
                 "GCP",
                 "Docker",
+                "Tensorflow",
                 "RabbitMQ",
                 "GitLab CI/CD",
-                "Grafana",
-                "Tensorflow",
+                "Predictive Analytics",
                 "Scrum"
             ]
         },
@@ -120,12 +120,11 @@
                 "LabVIEW",
                 "MatLab",
                 "C++",
-                "C#.NET",
+                "C#",
                 "Jenkins",
-                "TCP/IP",
-                "SDK Development",
                 "RT Signal Processing",
-                "MR Methodologies"
+                "Data Visualisation",
+                "User Support"
             ]
         },
         {
@@ -141,9 +140,9 @@
                 "MatLab",
                 "CPLEX",
                 "Convex Optimization",
-                "MR Physics",
-                "Diffusion Tensor Imaging",
-                "Scientific Writing"
+                "Pulse Sequence Design",
+                "DTI",
+                "In Vivo Imaging"
             ]
         }
     ],
@@ -213,24 +212,34 @@
             "description": "Initiated and co-created a camp of 20 people at the largest regional Burning Man event in Europe held annually in the Monegros desert in Spain."
         },
         {
-            "position": "Tutor and Mentor",
-            "event": "",
-            "organisation": "Independent",
-            "href": "",
-            "logo": "",
-            "startDate": "11/2021",
-            "endDate": "04/2023",
-            "description": "Tutoring in mathematics/physics for entrance exams to high schools and ETH Zurich. Mentoring students in project development and career planning."
+            "position": "Guide",
+            "event": "EGMO 2017",
+            "organisation": "European Girls' Math Olympiad",
+            "href": "https://www.egmo.org/egmos/egmo6/",
+            "logo": "/logos/egmo.png",
+            "startDate": "07/2017",
+            "endDate": "07/2017",
+            "description": "Guide for the national team leaders during the 7 day of the event. Coordinated logistics and facilitated activities."
         },
         {
             "position": "Guide",
             "event": "IPhO 2016",
             "organisation": "International Physics Olympiad",
             "href": "https://science.olympiad.ch/ipho2016",
-            "logo": "",
+            "logo": "/logos/ipho.png",
             "startDate": "07/2016",
             "endDate": "07/2016",
             "description": "Guided the ~500 participants for 10 days during the competition and facilitated activities. Team guide for the student team of Bosnia and Herzegovina."
+        },
+        {
+            "position": "Tutor and Mentor",
+            "event": "",
+            "organisation": "Independent",
+            "href": "",
+            "logo": "",
+            "startDate": "11/2014",
+            "endDate": "04/2023",
+            "description": "Tutoring in mathematics/physics for entrance exams to high schools and ETH Zurich. Mentoring students in project development and career planning."
         },
         {
             "position": "Board Member",
