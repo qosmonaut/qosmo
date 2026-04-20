@@ -60,7 +60,7 @@ In order to customize the template to your own needs, please do the following.
 
 1. Edit the title and description of the website in `app/layout.js`.
 2. Add your personal details by editing `translations/en.json`
-   - You can specify any number of positions in experiences and related skills, education, volunteering and projects.
+   - You can specify any number of positions in experience and related skills, education, volunteering and projects.
    - In the About section, multiple paragraphs can be created by creating multiple entries in the array `general:about`.
 3. Replace the file `app/favicon.ico` with a favicon of your choice.
 4. (Optional) Change the color palette by editing `globals.css`.

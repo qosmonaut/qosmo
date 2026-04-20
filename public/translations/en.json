@@ -21,13 +21,13 @@
     },
     "navigation": {
         "about": "About",
-        "experiences": "Experiences",
+        "experience": "Experience",
         "education": "Education",
         "volunteering": "Volunteering",
         "projects": "Projects",
         "imprint": "Imprint"
     },
-    "experiences": [
+    "experience": [
         {
             "title": "Principal SW Engineer",
             "company": "Skaaltec / ETH Rehabilitation Engineering Lab",
@@ -321,7 +321,7 @@
         {
         "name": "Vanlife travel log",
         "framework": "travel",
-        "description": "Documented the first steps of the journey and experiences of living in a van in 2021",
+        "description": "Documented the first steps of the journey and experience of living in a van in 2021",
         "href": "https://www.polarsteps.com/VannyDeVito/4048680-funemployment-2021"
         }
     ]

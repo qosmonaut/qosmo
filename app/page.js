@@ -5,7 +5,7 @@ import Profile from "@/components/profile";
 import Navigation from "@/components/navigation";
 import Socials from "@/components/socials";
 import About from "@/components/about";
-import Experiences from "@/components/experiences/experiences";
+import Experience from "@/components/experience/experience";
 import Education from "@/components/education/education";
 import Projects from '@/components/projects/projects';
 import Volunteering from "@/components/volunteering/volunteering";
@@ -57,7 +57,7 @@ export default function Home() {
         </div>
         <div className='lg:pl-[35%]'>
           <About data={data.general} />
-          <Experiences data={data} />
+          <Experience data={data} />
           <Education data={data} />
           <Volunteering data={data} />
           <Projects data={data} />

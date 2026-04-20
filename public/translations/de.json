@@ -21,13 +21,13 @@
     },
     "navigation": {
         "about": "Über mich",
-        "experiences": "Erfahrungen",
+        "experience": "Erfahrungen",
         "education": "Ausbildung",
         "volunteering": "Ehrenamt",
         "projects": "Projekte",
         "imprint": "Impressum"
     },
-    "experiences": [
+    "experience": [
         {
             "title": "Leitender Softwareingenieur",
             "company": "Skaaltec / Rehabilitation Engineering Lab",

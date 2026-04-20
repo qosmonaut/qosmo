@@ -32,7 +32,7 @@ const Navigation = (props) => {
         <div id='navigation' className='font-base py-8 tracking-widest uppercase hide-short'>
             <div className='mx-auto flex w-max flex-col items-start lg:mx-0'>
                 <NavItem active={activeSection === 'about' ? true : false} href='#about' num='01' name={props.data.about}></NavItem>
-                <NavItem active={activeSection === 'experiences' ? true : false} href='#experiences' num='02' name={props.data.experiences}></NavItem>
+                <NavItem active={activeSection === 'experience' ? true : false} href='#experience' num='02' name={props.data.experience}></NavItem>
                 <NavItem active={activeSection === 'education' ? true : false} href='#education' num='03' name={props.data.education}></NavItem>
                 <NavItem active={activeSection === 'volunteering' ? true : false} href='#volunteering' num='04' name={props.data.volunteering}></NavItem>
                 <NavItem active={(activeSection === 'projects') || (activeSection === 'credits') ? true : false} href='#projects' num='05' name={props.data.projects}></NavItem>
