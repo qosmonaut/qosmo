@@ -119,7 +119,7 @@
             "description": "Unterstützte die Entwicklung einer neuartigen Magnetfeld-Überwachungstechnologie für MRT-Anwendungen in einem ETH-Spin-off. Erweiterung der Echtzeit-Signalverarbeitung und Visualisierung von Feldsensordaten. Implementierung der Steuerungs-API und des zugehörigen SDK, sowie DevOps-Prozesse.",
             "skills": [
                 "LabVIEW",
-                "MatLab",
+                "MATLAB",
                 "C++",
                 "C#",
                 "Jenkins",
@@ -138,7 +138,7 @@
             "description": "Entwicklung von einem Optimierungs-Framework zur Generierung asymmetrischer Gradienten-Wellenformen zur Diffusions-Kodierung für kardiovaskuläre DTI. Implementierung auf einem Siemens Connectome-Scanner.",
             "skills": [
                 "Python",
-                "MatLab",
+                "MATLAB",
                 "CPLEX",
                 "Konvexe Optimierung",
                 "Pulssequenzprogrammierung",

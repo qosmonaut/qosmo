@@ -118,7 +118,7 @@
             "description": "Supported initial development of novel magnetic field monitoring technology for MRI applications in an ETH spin-off. Expanded real-time signal processing pipeline and visualization of field sensor data. Implemented control API and accompanying SDK for user application development. Set up DevOps process for acquisition application.",
             "skills": [
                 "LabVIEW",
-                "MatLab",
+                "MATLAB",
                 "C++",
                 "C#",
                 "Jenkins",
@@ -137,7 +137,7 @@
             "description": "Developed an optimization framework to generate asymmetric diffusion encoding gradient waveforms for high-resolution cardiovascular DTI. Implemented proof-of-concept on a Siemens Connectome scanner.",
             "skills": [
                 "Python",
-                "MatLab",
+                "MATLAB",
                 "CPLEX",
                 "Convex Optimization",
                 "Pulse Sequence Design",
