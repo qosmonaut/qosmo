@@ -40,11 +40,10 @@
                 "C++",
                 "Python",
                 "Docker",
-                "Rust",
-                "Qt",
+                "Electron",
                 "Balena",
-                "PostgreSQL",
                 "Django",
+                "PostgreSQL",
                 "React",
                 "Embedded",
                 "SW Architecture"
@@ -80,12 +79,12 @@
                 "C++",
                 "Python",
                 "TinyML",
+                "WearOS",
                 "PyTorch",
                 "Docker",
                 "GCP",
                 "Embedded",
-                "Technical Training",
-                "Scrum"
+                "Technical Training"
             ]
         },
         {

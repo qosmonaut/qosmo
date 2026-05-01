@@ -40,8 +40,7 @@
                 "C++",
                 "Python",
                 "Docker",
-                "Rust",
-                "Qt",
+                "Electron",
                 "Balena",
                 "Django",
                 "PostgreSQL",
@@ -80,12 +79,12 @@
                 "C++",
                 "Python",
                 "TinyML",
+                "WearOS",
                 "PyTorch",
                 "Docker",
                 "GCP",
                 "Eingebettete Systeme",
-                "Technisches Training",
-                "Scrum"
+                "Technisches Training"
             ]
         },
         {
