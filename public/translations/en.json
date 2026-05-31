@@ -29,6 +29,27 @@
     },
     "experience": [
         {
+            "title": "Senior SW Engineer",
+            "company": "Abbott Laboratories",
+            "href": "https://www.abbott.com",
+            "logo": "/logos/abbott.png",
+            "startDate": "05/2026",
+            "endDate": "",
+            "description": "Development of next-generation acute circulatory support (ACS) and extracorporeal membrane oxygenation (ECMO) systems. Design and implementation of software architecture for embedded control systems for a class III medical device. Development of user interfaces and integration into hospital information systems. Collaboration with cross-functional teams to ensure regulatory compliance and successful product development.",
+            "skills": [
+                "C++",
+                "Jenkins",
+                "Docker",
+                "Yocto Linux",
+                "Flutter",
+                "Dart",
+                "gRPC",
+                "UI/UX",
+                "Embedded",
+                "SW Architecture"
+            ]
+        },
+        {
             "title": "Principal SW Engineer",
             "company": "Skaaltec / ETH Rehabilitation Engineering Lab",
             "href": "https://skaaltec.com",

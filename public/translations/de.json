@@ -29,6 +29,27 @@
     },
     "experience": [
         {
+            "title": "Senior Softwareingenieur",
+            "company": "Abbott Laboratories",
+            "href": "https://www.abbott.com",
+            "logo": "/logos/abbott.png",
+            "startDate": "05/2026",
+            "endDate": "",
+            "description": "Entwicklung der nächsten Generation von Systemen zur akuten Kreislaufunterstützung (ACS) und extrakorporalen Membranoxygenierung (ECMO). Entwurf und Implementierung der Softwarearchitektur für eingebettete Steuerungssysteme eines Medizinprodukts der Klasse III. Entwicklung von Benutzeroberflächen und Integration in Krankenhausinformationssysteme. Zusammenarbeit mit funktionsübergreifenden Teams zur Sicherstellung der regulatorischen Konformität und erfolgreichen Produktentwicklung.",
+            "skills": [
+                "C++",
+                "Jenkins",
+                "Docker",
+                "Yocto Linux",
+                "Flutter",
+                "Dart",
+                "gRPC",
+                "UI/UX",
+                "Embedded",
+                "SW Architecture"
+            ]
+        },
+        {
             "title": "Leitender Softwareingenieur",
             "company": "Skaaltec / Rehabilitation Engineering Lab",
             "href": "https://skaaltec.com",
